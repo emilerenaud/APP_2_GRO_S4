@@ -1,0 +1,18 @@
+[StartTime]
+Assemblage1-test B break_2.MFC=
+[SolverState]
+Assemblage1-test B break_2.MFC=2
+[MainFrame]
+Assemblage1-test B break_2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAADLBAAAAAEHEAAAAAPNDAAAAA
+[ShowMin]
+Assemblage1-test B break_2.MFC=yes
+[SolverType]
+Assemblage1-test B break_2.MFC=Analyse linéaire
+[StudyType]
+Assemblage1-test B break_2.MFC=-1
+[StudyName]
+Assemblage1-test B break_2.MFC=test B break_2
+[Solver]
+Assemblage1-test B break_2.MFC=Sparse
+[Dynamic]
+Assemblage1-test B break_2.MFC=0

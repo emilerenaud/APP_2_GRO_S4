@@ -1,0 +1,1883 @@
+
+****************************************************************
+****************************************************************
+**                                                            **
+**                                                            **
+**        CCC     OO      SSS    M    M     OO      SSS       **
+**       C       O  O    S       MM  MM    O  O    S          **
+**       C       O  O     SS     M MM M    O  O     SS        **
+**       C       O  O       S    M    M    O  O       S       **
+**        CCC     OO     SSS     M    M     OO     SSS        **
+**                                                            **
+**                                                            **
+**                   Simulations  V2021-B3                    **
+**                 Simulation Premium Package                 **
+**           Distributed By: SOLIDWORKS Corporation           **
+**               6320 Canoga Avenue, Suite 300                **
+**               Woodland Hills, California 91367             **
+**               Telephone Number (818)673-2200               **
+**         Copyright 1988-2018 SOLIDWORKS Corporation         **
+**                                                            **
+****************************************************************
+****************************************************************
+
+Problem name: C:\APP_2_GRO_S4\carre_0
+Date        : 01/23/2022     Time:   19:17:01
+
+
+ SYSTEM OF UNITS:
+ International System of Units, SI, is used for all input/output data.
+ Common Quantities:
+ Length:meter, Mass:kilogram, Time:second, Temperature:kelvin
+ Force:newton, Pressure also stress:pascal, Energy:joule, Power:watt
+
+ NUMBER OF PHYSICAL CORES USED TO RUN SIMULATION:  8
+
+  C O N T R O L  I N F O R M A T I O N                  
+
+   CURRENT RESTRAINT SET . . . . . . . . . . . (BC_SET)  =           1
+
+   NUMBER OF LOAD CASES  . . . . . . . . . . . (NLCASE)  =           1
+   SOLUTION MODE . . . . . . . . . . . . . . . (MODEX)   =           0
+      EQ. 0, STATIC ANALYSIS                              
+      EQ. 1, BUCKLING ANALYSIS                            
+      EQ. 2, DYNAMIC ANALYSIS                             
+      EQ. 3, DROP TEST                                    
+
+   SOLVER TYPE . . . . . . . . . . . . . . . . .(ISOL)   =           5
+      EQ. 0, DIRECT SPARSE SOLVER                         
+      EQ. 1, DIRECT SKYLINE SOLVER                        
+      EQ. 2, ITERATIVE SOLVER                             
+      EQ. 3, EXPLICIT INTEGRATION                         
+      EQ. 4, LARGE PROBLEM DIRECT SPARSE SOLVER           
+      EQ. 5, INTEL DIRECT SPARSE SOLVER                   
+      EQ. 6, INTEL NETWORK SPARSE SOLVER                  
+
+   THERMAL LOADING FLAG . . . . . . . . . . . .(ITHERM)  =           0
+      EQ. 0, NO THERMAL EFFECTS CONSIDERED                
+      EQ. 1, ADD TEMPERATURE EFFECT                       
+   GRAVITY LOADING FLAG . . . . . . . . . . . .(IGRAV)   =           0
+      EQ. 0, NO GRAVITY LOADING CONSIDERED                
+      EQ. 1, ADD GRAVITY LOADING EFFECT                   
+   CENTRIFUGAL LOADING FLAG . . . . . . . . . .(ICNTRF)  =           0
+      EQ. 0, NO CENTRIFUGAL LOADING CONSIDERED            
+      EQ. 1, ADD CENTRIFUGAL LOADING EFFECT               
+   IN-PLANE STIFFENING FLAG . . . . . . . . . .(INPLN)   =           0
+      EQ. 0, NO IN-PLANE EFFECTS CONSIDERED               
+      EQ. 1, IN-PLANE EFFECTS CONSIDERED                  
+   SOFT SPRING ADDITION FLAG . . . . . . . . . (ISOFT)   =           0
+      EQ. 0, NO SOFT SPRING OPTION                        
+      EQ. 1, SOFT SPRING ADDED                            
+
+   SAVE DECOMPOSED STIFFNESS MATRIX FLAG . . . (ISAVK)   =           0
+      EQ. 0, DO NOT SAVE DECOMPOSED K                     
+      EQ. 1, SAVE DECOMPOSED K                            
+   FORM STIFFNESS MATRIX FLAG . . . . . . . . .(IFORMK)  =           0
+      EQ. 0, FORM STIFFNESS MATRIX                        
+      EQ. 1, USE EXISTING DECOMPOSED STIFFNESS MATRIX     
+
+   SPIN SOFTENING FLAG . . . . . . . . . . . . (ISPIN)   =           0
+      EQ. 0, NO SPIN SOFTENING EFFECTS CONSIDERED         
+      EQ. 1, SPIN SOFTENING EFFECTS CONSIDERED            
+   INERTIA RELIEF FLAG  . . . . . . . . . . . .(IFORMK)  =           0
+      EQ. 0, NO INERITA RELIEF EFFECTS CONSIDERED         
+      EQ. 1, INERITA RELIEF EFFECTS CONSIDERED            
+   RIGID CONNECTIONS FLAG  . . . . . . . . . . (IRIGID)  =           0
+      EQ. 0, HINGE CONNECTIONS BETWEEN SOLIDS & SHELLS    
+      EQ. 1, RIGID CONNECTIONS BETWEEN SOLIDS & SHELLS    
+
+
+  T O T A L  S Y S T E M  D A T A                        
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       51993
+   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =         249
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       27747
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       17415
+
+   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     1660721
+
+
+
+
+************************************************************************
+    D I S P L A C E M E N T     P R I N T O U T    (LOAD CASE     1)
+************************************************************************
+
+
+
+
+************************************************************************
+    D I S P L A C E M E N T     P R I N T O U T    (LOAD CASE     1)
+************************************************************************
+
+
+  STATUS OF THERMAL EFFECTS FOR THIS LOAD CASE:
+  ---------------------------------------------
+
+    - Thermal flag is off (no thermal effect)
+
+
+
+  S O L U T I O N   T I M E   L O G   I N   S E C
+            FOR PROBLEM
+     TIME FOR INPUT PHASE  . . . . . . . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       2
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . =       0
+
+     TIME FOR AL CONTACT OPERATIONS (Prep) . . . . . . =       0
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       1
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       2
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       3
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       4
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       5
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       6
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       7
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       8
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       9
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      10
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      11
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      12
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      13
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      14
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      15
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      16
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      17
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      18
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      19
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      20
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      21
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      22
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      23
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      24
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      25
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      26
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      27
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      28
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      29
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      30
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      31
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      32
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      33
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      34
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      35
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      36
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      37
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      38
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      39
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =      40
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     TIME FOR AL CONTACT OPERATIONS (Update) . . . . . =       0
+
+   FORCES ON THE ACTIVE CONTACT ELEMENT(S)
+   ELEMENT   NODE   TARGET      FX           FY           FZ       NORMAL FORCE
+    7516     6344        1   0.4093E+00   0.0000E+00   0.0000E+00   0.4093E+00
+    7516     6343        1  -0.1121E+00   0.0000E+00   0.0000E+00   0.1121E+00
+    7516     6900        1  -0.1323E+00   0.0000E+00   0.0000E+00   0.1323E+00
+    7516    10597        1   0.4813E+00   0.0000E+00   0.0000E+00   0.4813E+00
+    7516    10596        1   0.1164E+00   0.0000E+00   0.0000E+00   0.1164E+00
+    7516    10589        1   0.7310E+00   0.0000E+00   0.0000E+00   0.7310E+00
+    7518     6344        1  -0.3907E+00   0.0000E+00   0.1104E-15   0.3907E+00
+    7518     6343        1  -0.3683E+00   0.0000E+00   0.1455E-15   0.3683E+00
+    7518     6900        1   0.1296E+01   0.0000E+00  -0.2540E-15   0.1296E+01
+    7518    10597        1   0.3584E+00   0.0000E+00  -0.1455E-15   0.3584E+00
+    7518    10596        1   0.1737E+01   0.0000E+00  -0.8742E-15   0.1737E+01
+    7518    10589        1   0.2013E+01   0.0000E+00  -0.4396E-15   0.2013E+01
+    7519     6344        1  -0.1148E-01   0.0000E+00   0.0000E+00   0.1148E-01
+    7519     6343        1  -0.1514E-01   0.0000E+00   0.0000E+00   0.1514E-01
+    7519     6900        1  -0.1148E-01   0.0000E+00   0.0000E+00   0.1148E-01
+    7519    10597        1   0.5305E-01   0.0000E+00   0.0000E+00   0.5305E-01
+    7519    10596        1   0.5305E-01   0.0000E+00   0.0000E+00   0.5305E-01
+    7519    10589        1   0.8365E-01   0.0000E+00   0.0000E+00   0.8365E-01
+    7520     6900        2   0.1022E+01  -0.8330E-15   0.4246E-14   0.1022E+01
+    7520     6343        2  -0.2736E+00   0.3591E-15  -0.1635E-14   0.2736E+00
+    7520     6901        2  -0.2883E+00   0.4707E-15  -0.2096E-14   0.2883E+00
+    7520    10596        2   0.1282E+01  -0.1437E-14   0.6636E-14   0.1282E+01
+    7520    10595        2   0.2560E+00  -0.4723E-15   0.2054E-14   0.2560E+00
+    7520     7773        2   0.1468E+01  -0.2850E-14   0.1247E-13   0.1468E+01
+   10141     6844      101   0.0000E+00   0.0000E+00  -0.5540E-03   0.5540E-03
+   10141     6845      101   0.0000E+00   0.0000E+00   0.2120E-02   0.2120E-02
+   10141     6846      101   0.0000E+00   0.0000E+00  -0.3419E-03   0.3419E-03
+   10141     7941      101   0.0000E+00   0.0000E+00   0.2791E-02   0.2791E-02
+   10141     7937      101   0.0000E+00   0.0000E+00   0.1217E-02   0.1217E-02
+   10141     7940      101   0.0000E+00   0.0000E+00   0.3316E-03   0.3316E-03
+   10172     6817      162   0.0000E+00   0.0000E+00   0.3194E-02   0.3194E-02
+   10172     6818      162   0.0000E+00   0.0000E+00  -0.5383E-03   0.5383E-03
+   10172     6816      162   0.0000E+00   0.0000E+00  -0.8651E-03   0.8651E-03
+   10172     8022      162   0.0000E+00   0.0000E+00   0.1905E-02   0.1905E-02
+   10172     8025      162   0.0000E+00   0.0000E+00   0.5425E-03   0.5425E-03
+   10172     8026      162   0.0000E+00   0.0000E+00   0.4439E-02   0.4439E-02
+   10174     6817      162   0.0000E+00   0.0000E+00  -0.8118E-04   0.8118E-04
+   10174     6818      162   0.0000E+00   0.0000E+00  -0.4919E-04   0.4919E-04
+   10174     6816      162   0.0000E+00   0.0000E+00   0.2101E-03   0.2101E-03
+   10174     8022      162   0.0000E+00   0.0000E+00   0.5066E-04   0.5066E-04
+   10174     8025      162   0.0000E+00   0.0000E+00   0.1721E-03   0.1721E-03
+   10174     8026      162   0.0000E+00   0.0000E+00   0.4980E-03   0.4980E-03
+   10588     6873       57   0.6170E+00   0.0000E+00   0.0000E+00   0.6170E+00
+   10588     6872       57  -0.2032E+00   0.0000E+00   0.0000E+00   0.2032E+00
+   10588     6371       57  -0.1920E+00   0.0000E+00   0.0000E+00   0.1920E+00
+   10588     7856       57   0.1053E+01   0.0000E+00   0.0000E+00   0.1053E+01
+   10588    10418       57   0.1943E+00   0.0000E+00   0.0000E+00   0.1943E+00
+   10588    10417       57   0.9129E+00   0.0000E+00   0.0000E+00   0.9129E+00
+   10589     6873       57  -0.3948E+00   0.0000E+00  -0.4353E-18   0.3948E+00
+   10589     6872       57   0.1254E+01   0.0000E+00   0.2647E-17   0.1254E+01
+   10589     6371       57  -0.3829E+00   0.0000E+00  -0.3940E-18   0.3829E+00
+   10589     7856       57   0.1999E+01   0.0000E+00   0.2094E-17   0.1999E+01
+   10589    10418       57   0.1859E+01   0.0000E+00   0.1602E-17   0.1859E+01
+   10589    10417       57   0.3764E+00   0.0000E+00   0.2205E-18   0.3764E+00
+   10590     6873       57  -0.5303E-02   0.0000E+00   0.1795E-20   0.5303E-02
+   10590     6872       57  -0.5704E-02   0.0000E+00   0.2365E-20   0.5704E-02
+   10590     6371       57   0.2425E-01   0.0000E+00  -0.4129E-20   0.2425E-01
+   10590     7856       57   0.4463E-02   0.0000E+00  -0.2365E-20   0.4463E-02
+   10590    10418       57   0.2884E-01   0.0000E+00  -0.1421E-19   0.2884E-01
+   10590    10417       57   0.2371E-01   0.0000E+00  -0.7148E-20   0.2371E-01
+   10591     6873       57  -0.1156E+00   0.0000E+00   0.5353E-19   0.1156E+00
+   10591     6872       57  -0.1133E+00   0.0000E+00   0.4082E-19   0.1133E+00
+   10591     6371       57  -0.1233E+00   0.0000E+00   0.4078E-19   0.1233E+00
+   10591     7856       57   0.6377E+00   0.0000E+00  -0.1886E-18   0.6377E+00
+   10591    10418       57   0.5715E+00   0.0000E+00  -0.2982E-18   0.5715E+00
+   10591    10417       57   0.5515E+00   0.0000E+00  -0.1894E-18   0.5515E+00
+   10592     6372       58   0.7084E+00   0.0000E+00   0.0000E+00   0.7084E+00
+   10592     6371       58  -0.2248E+00   0.0000E+00   0.0000E+00   0.2248E+00
+   10592     6872       58  -0.2334E+00   0.0000E+00   0.0000E+00   0.2334E+00
+   10592    10419       58   0.1081E+01   0.0000E+00   0.0000E+00   0.1081E+01
+   10592    10418       58   0.2263E+00   0.0000E+00   0.0000E+00   0.2263E+00
+   10592    10411       58   0.1196E+01   0.0000E+00   0.0000E+00   0.1196E+01
+   10593     6372       58  -0.1822E-01   0.0000E+00   0.0000E+00   0.1822E-01
+   10593     6371       58   0.6058E-01   0.0000E+00   0.0000E+00   0.6058E-01
+   10593     6872       58  -0.1836E-01   0.0000E+00   0.0000E+00   0.1836E-01
+   10593    10419       58   0.8960E-01   0.0000E+00   0.0000E+00   0.8960E-01
+   10593    10418       58   0.9138E-01   0.0000E+00   0.0000E+00   0.9138E-01
+   10593    10411       58   0.1747E-01   0.0000E+00   0.0000E+00   0.1747E-01
+   10594     6372       58  -0.4035E+00   0.0000E+00   0.0000E+00   0.4035E+00
+   10594     6371       58  -0.3957E+00   0.0000E+00   0.0000E+00   0.3957E+00
+   10594     6872       58   0.1277E+01   0.0000E+00   0.0000E+00   0.1277E+01
+   10594    10419       58   0.3888E+00   0.0000E+00   0.0000E+00   0.3888E+00
+   10594    10418       58   0.1925E+01   0.0000E+00   0.0000E+00   0.1925E+01
+   10594    10411       58   0.2035E+01   0.0000E+00   0.0000E+00   0.2035E+01
+   10595     6372       58  -0.1335E+00   0.0000E+00   0.0000E+00   0.1335E+00
+   10595     6371       58  -0.1412E+00   0.0000E+00   0.0000E+00   0.1412E+00
+   10595     6872       58  -0.1310E+00   0.0000E+00   0.0000E+00   0.1310E+00
+   10595    10419       58   0.6415E+00   0.0000E+00   0.0000E+00   0.6415E+00
+   10595    10418       58   0.6593E+00   0.0000E+00   0.0000E+00   0.6593E+00
+   10595    10411       58   0.7252E+00   0.0000E+00   0.0000E+00   0.7252E+00
+   10620     6845      113   0.5235E+00   0.0000E+00  -0.7015E-15   0.5235E+00
+   10620     6844      113  -0.1751E+00   0.0000E+00   0.3017E-15   0.1751E+00
+   10620     6399      113  -0.1656E+00   0.0000E+00   0.3972E-15   0.1656E+00
+   10620     7941      113   0.9083E+00   0.0000E+00  -0.1212E-14   0.9083E+00
+   10620    10244      113   0.1687E+00   0.0000E+00  -0.3959E-15   0.1687E+00
+   10620    10243      113   0.7898E+00   0.0000E+00  -0.2407E-14   0.7898E+00
+   10621     6845      113  -0.3675E+00   0.2091E-14  -0.2036E-14   0.3675E+00
+   10621     6844      113   0.1174E+01  -0.1105E-13   0.1076E-13   0.1174E+01
+   10621     6399      113  -0.3596E+00   0.2091E-14  -0.2036E-14   0.3596E+00
+   10621     7941      113   0.1854E+01  -0.9660E-14   0.9404E-14   0.1854E+01
+   10621    10244      113   0.1753E+01  -0.9660E-14   0.9404E-14   0.1753E+01
+   10621    10243      113   0.3520E+00  -0.1426E-14   0.1388E-14   0.3520E+00
+   10622     6845      113  -0.2797E-01   0.0000E+00   0.6682E-16   0.2797E-01
+   10622     6844      113  -0.2936E-01   0.0000E+00   0.5076E-16   0.2936E-01
+   10622     6399      113   0.9069E-01   0.0000E+00  -0.1180E-15   0.9069E-01
+   10622     7941      113   0.2804E-01   0.0000E+00  -0.6660E-16   0.2804E-01
+   10622    10244      113   0.1511E+00   0.0000E+00  -0.2039E-15   0.1511E+00
+   10622    10243      113   0.1338E+00   0.0000E+00  -0.4050E-15   0.1338E+00
+   10623     6845      113  -0.1233E+00   0.0000E+00   0.2198E-15   0.1233E+00
+   10623     6844      113  -0.1202E+00   0.0000E+00   0.2897E-15   0.1202E+00
+   10623     6399      113  -0.1292E+00   0.0000E+00   0.2198E-15   0.1292E+00
+   10623     7941      113   0.6639E+00   0.0000E+00  -0.1015E-14   0.6639E+00
+   10623    10244      113   0.6125E+00   0.0000E+00  -0.1015E-14   0.6125E+00
+   10623    10243      113   0.5882E+00   0.0000E+00  -0.1601E-14   0.5882E+00
+   10624     6400      114   0.7226E+00   0.6595E-14  -0.3231E-14   0.7226E+00
+   10624     6399      114  -0.2290E+00  -0.2817E-14   0.1371E-14   0.2290E+00
+   10624     6844      114  -0.2387E+00  -0.3752E-14   0.1847E-14   0.2387E+00
+   10624    10245      114   0.1107E+01   0.1117E-13  -0.5354E-14   0.1107E+01
+   10624    10244      114   0.2310E+00   0.3721E-14  -0.1822E-14   0.2310E+00
+   10624    10237      114   0.1227E+01   0.2286E-13  -0.1131E-13   0.1227E+01
+   10625     6400      114  -0.4569E-01   0.5035E-15  -0.7191E-15   0.4569E-01
+   10625     6399      114   0.1375E+00  -0.2609E-14   0.3801E-14   0.1375E+00
+   10625     6844      114  -0.4592E-01   0.4989E-15  -0.7095E-15   0.4592E-01
+   10625    10245      114   0.2276E+00  -0.2361E-14   0.3370E-14   0.2276E+00
+   10625    10244      114   0.2304E+00  -0.2303E-14   0.3250E-14   0.2304E+00
+   10625    10237      114   0.4579E-01  -0.3498E-15   0.4872E-15   0.4579E-01
+   10626     6400      114  -0.3852E+00  -0.5169E-14   0.2830E-14   0.3852E+00
+   10626     6399      114  -0.3757E+00  -0.3857E-14   0.2205E-14   0.3757E+00
+   10626     6844      114   0.1222E+01   0.8085E-14  -0.5051E-14   0.1222E+01
+   10626    10245      114   0.3695E+00   0.5244E-14  -0.2852E-14   0.3695E+00
+   10626    10244      114   0.1832E+01   0.1531E-13  -0.9115E-14   0.1832E+01
+   10626    10237      114   0.1949E+01   0.3176E-13  -0.1695E-13   0.1949E+01
+   10627     6400      114  -0.1562E+00  -0.2225E-14   0.1153E-14   0.1562E+00
+   10627     6399      114  -0.1635E+00  -0.2946E-14   0.1498E-14   0.1635E+00
+   10627     6844      114  -0.1546E+00  -0.2213E-14   0.1126E-14   0.1546E+00
+   10627    10245      114   0.7601E+00   0.1017E-13  -0.5150E-14   0.7601E+00
+   10627    10244      114   0.7746E+00   0.1028E-13  -0.5381E-14   0.7746E+00
+   10627    10237      114   0.8350E+00   0.1631E-13  -0.8276E-14   0.8350E+00
+   10652     6427      169   0.1243E+00  -0.3705E-16  -0.2353E-14   0.1243E+00
+   10652     6817      169  -0.3983E-01   0.6969E-17   0.4425E-15   0.3983E-01
+   10652     6816      169  -0.4211E-01   0.6969E-17   0.4425E-15   0.4211E-01
+   10652    10082      169   0.1904E+00  -0.3230E-16  -0.2051E-14   0.1904E+00
+   10652     8026      169   0.4079E-01  -0.4757E-17  -0.3020E-15   0.4079E-01
+   10652    10083      169   0.2189E+00  -0.3230E-16  -0.2051E-14   0.2189E+00
+   10653     6427      169  -0.8784E-01   0.0000E+00   0.0000E+00   0.8784E-01
+   10653     6817      169   0.2684E+00   0.0000E+00   0.0000E+00   0.2684E+00
+   10653     6816      169  -0.9445E-01   0.0000E+00   0.0000E+00   0.9445E-01
+   10653    10082      169   0.4149E+00   0.0000E+00   0.0000E+00   0.4149E+00
+   10653     8026      169   0.4970E+00   0.0000E+00   0.0000E+00   0.4970E+00
+   10653    10083      169   0.9184E-01   0.0000E+00   0.0000E+00   0.9184E-01
+   10654     6427      169  -0.2779E+00   0.0000E+00   0.5148E-14   0.2779E+00
+   10654     6817      169  -0.2823E+00   0.0000E+00   0.5148E-14   0.2823E+00
+   10654     6816      169   0.9000E+00   0.0000E+00  -0.2737E-13   0.9000E+00
+   10654    10082      169   0.2719E+00   0.0000E+00  -0.3514E-14   0.2719E+00
+   10654     8026      169   0.1418E+01   0.0000E+00  -0.2386E-13   0.1418E+01
+   10654    10083      169   0.1364E+01   0.0000E+00  -0.2386E-13   0.1364E+01
+   10655     6427      169  -0.1053E+00   0.0000E+00   0.0000E+00   0.1053E+00
+   10655     6817      169  -0.1024E+00   0.0000E+00   0.0000E+00   0.1024E+00
+   10655     6816      169  -0.9904E-01   0.0000E+00   0.0000E+00   0.9904E-01
+   10655    10082      169   0.4846E+00   0.0000E+00   0.0000E+00   0.4846E+00
+   10655     8026      169   0.5377E+00   0.0000E+00   0.0000E+00   0.5377E+00
+   10655    10083      169   0.5126E+00   0.0000E+00   0.0000E+00   0.5126E+00
+   10656     6816      170   0.9985E+00   0.0000E+00   0.0000E+00   0.9985E+00
+   10656     6428      170  -0.3197E+00   0.0000E+00   0.0000E+00   0.3197E+00
+   10656     6427      170  -0.3126E+00   0.0000E+00   0.0000E+00   0.3126E+00
+   10656    10077      170   0.1617E+01   0.0000E+00   0.0000E+00   0.1617E+01
+   10656    10084      170   0.3093E+00   0.0000E+00   0.0000E+00   0.3093E+00
+   10656    10083      170   0.1529E+01   0.0000E+00   0.0000E+00   0.1529E+01
+   10657     6816      170  -0.2517E+00   0.0000E+00   0.0000E+00   0.2517E+00
+   10657     6428      170   0.7663E+00   0.0000E+00   0.0000E+00   0.7663E+00
+   10657     6427      170  -0.2447E+00   0.0000E+00   0.0000E+00   0.2447E+00
+   10657    10077      170   0.1282E+01   0.0000E+00   0.0000E+00   0.1282E+01
+   10657    10084      170   0.1195E+01   0.0000E+00   0.0000E+00   0.1195E+01
+   10657    10083      170   0.2453E+00   0.0000E+00   0.0000E+00   0.2453E+00
+   10658     6816      170  -0.7301E-01   0.0000E+00   0.3868E-15   0.7301E-01
+   10658     6428      170  -0.7313E-01   0.0000E+00   0.3868E-15   0.7313E-01
+   10658     6427      170   0.2114E+00   0.0000E+00  -0.2057E-14   0.2114E+00
+   10658    10077      170   0.7414E-01   0.0000E+00  -0.2641E-15   0.7414E-01
+   10658    10084      170   0.3673E+00   0.0000E+00  -0.1793E-14   0.3673E+00
+   10658    10083      170   0.3658E+00   0.0000E+00  -0.1793E-14   0.3658E+00
+   10659     6816      170  -0.1710E+00   0.0000E+00   0.0000E+00   0.1710E+00
+   10659     6428      170  -0.1716E+00   0.0000E+00   0.0000E+00   0.1716E+00
+   10659     6427      170  -0.1775E+00   0.0000E+00   0.0000E+00   0.1775E+00
+   10659    10077      170   0.9009E+00   0.0000E+00   0.0000E+00   0.9009E+00
+   10659    10084      170   0.8464E+00   0.0000E+00   0.0000E+00   0.8464E+00
+   10659    10083      170   0.8520E+00   0.0000E+00   0.0000E+00   0.8520E+00
+   14388     6164      518  -0.3861E-16  -0.4720E+00   0.4887E-16   0.4720E+00
+   14388     6434      518   0.2195E-16   0.1379E+00  -0.2778E-16   0.1379E+00
+   14388     6165      518   0.1666E-16   0.1517E+00  -0.2109E-16   0.1517E+00
+   14388    11534      518  -0.1325E-15  -0.6327E+00   0.1677E-15   0.6327E+00
+   14388    11531      518  -0.2195E-16  -0.1397E+00   0.2778E-16   0.1397E+00
+   14388    11537      518  -0.6665E-16  -0.8035E+00   0.8436E-16   0.8035E+00
+   14390     6164      518   0.2083E-16   0.1010E+00  -0.1318E-16   0.1010E+00
+   14390     6434      518   0.2844E-16   0.9859E-01  -0.1800E-16   0.9859E-01
+   14390     6165      518  -0.5542E-16  -0.4403E+00   0.3507E-16   0.4403E+00
+   14390    11534      518  -0.2679E-16  -0.8131E-01   0.1695E-16   0.8131E-01
+   14390    11531      518  -0.1690E-15  -0.4626E+00   0.1069E-15   0.4626E+00
+   14390    11537      518  -0.8082E-16  -0.4864E+00   0.5115E-16   0.4864E+00
+   14391     6164      518   0.4655E-18   0.9122E-02  -0.4821E-18   0.9122E-02
+   14391     6434      518   0.1399E-17   0.1759E-01  -0.1563E-17   0.1759E-01
+   14391     6165      518   0.1277E-17   0.1379E-01  -0.1465E-17   0.1379E-01
+   14391    11534      518  -0.6579E-17  -0.6057E-01   0.7656E-17   0.6057E-01
+   14391    11531      518  -0.3268E-17  -0.4785E-01   0.3631E-17   0.4785E-01
+   14391    11537      518  -0.6859E-17  -0.1119E+00   0.7378E-17   0.1119E+00
+   14430     6434      518   0.8368E-17   0.5293E-01  -0.2689E-17   0.5293E-01
+   14430     6810      518   0.3588E-17   0.4625E-01   0.6840E-18   0.4625E-01
+   14430     6165      518  -0.1575E-16  -0.2725E+00   0.1693E-18   0.2725E+00
+   14430    10043      518  -0.5529E-17  -0.3247E-01   0.1154E-17   0.3247E-01
+   14430    11529      518  -0.1025E-16  -0.1893E+00  -0.5843E-17   0.1893E+00
+   14430    11531      518  -0.4602E-16  -0.2492E+00   0.1740E-16   0.2492E+00
+   14552     6898      546  -0.2010E-17  -0.7866E-02   0.6429E-17   0.7866E-02
+   14552     6346      546   0.2657E-18   0.3244E-02  -0.8496E-18   0.3244E-02
+   14552     6345      546   0.3913E-18   0.3777E-02  -0.1251E-17   0.3777E-02
+   14552    10576      546  -0.7839E-18  -0.1496E-01   0.2507E-17   0.1496E-01
+   14552    10587      546  -0.1379E-18  -0.3765E-02   0.4411E-18   0.3765E-02
+   14552    10584      546  -0.2155E-17  -0.2144E-01   0.6892E-17   0.2144E-01
+   14553     6898      546  -0.9829E-17   0.7628E-02   0.6016E-18   0.7628E-02
+   14553     6346      546   0.4531E-16  -0.2244E-01  -0.1725E-16   0.2244E-01
+   14553     6345      546  -0.1162E-16   0.8645E-02  -0.9658E-18   0.8645E-02
+   14553    10576      546   0.4249E-16  -0.3448E-01  -0.7133E-17   0.3448E-01
+   14553    10587      546   0.5751E-16  -0.4475E-01   0.1724E-16   0.4475E-01
+   14553    10584      546   0.8865E-17  -0.8495E-02   0.2641E-17   0.8495E-02
+   14554     6898      546  -0.1525E-17   0.8799E-02   0.2535E-17   0.8799E-02
+   14554     6346      546  -0.2110E-17   0.9016E-02   0.4878E-18   0.9016E-02
+   14554     6345      546   0.4184E-17  -0.3102E-01  -0.2831E-16   0.3102E-01
+   14554    10576      546   0.1861E-17  -0.7895E-02   0.1365E-17   0.7895E-02
+   14554    10587      546   0.1264E-16  -0.4540E-01   0.7767E-17   0.4540E-01
+   14554    10584      546   0.5973E-17  -0.4179E-01  -0.1531E-16   0.4179E-01
+   14555     6898      546  -0.1337E-17   0.6033E-02  -0.4754E-17   0.6033E-02
+   14555     6346      546  -0.9740E-18   0.5951E-02  -0.3465E-17   0.5951E-02
+   14555     6345      546  -0.1037E-17   0.5993E-02  -0.3688E-17   0.5993E-02
+   14555    10576      546   0.4763E-17  -0.2961E-01   0.1694E-16   0.2961E-01
+   14555    10587      546   0.7431E-17  -0.2982E-01   0.2643E-16   0.2982E-01
+   14555    10584      546   0.4587E-17  -0.3065E-01   0.1632E-16   0.3065E-01
+   14578     6344      553  -0.5090E-24   0.2045E-05   0.6475E-23   0.2045E-05
+   14578     6899      553  -0.2837E-23   0.1835E-04   0.3609E-22   0.1835E-04
+   14578     6345      553   0.9333E-23  -0.1007E-03  -0.1187E-21   0.1007E-03
+   14578    10590      553   0.6734E-24  -0.1755E-05  -0.8566E-23   0.1755E-05
+   14578    10583      553   0.2412E-22  -0.1115E-03  -0.3068E-21   0.1115E-03
+   14578    10594      553   0.1403E-23  -0.6547E-05  -0.1785E-22   0.6547E-05
+   14580     6345      546   0.3943E-17  -0.1236E-01  -0.1955E-16   0.1236E-01
+   14580     6899      546  -0.2273E-17   0.3568E-02   0.4710E-17   0.3568E-02
+   14580     6898      546  -0.1663E-17   0.4321E-02   0.4755E-17   0.4321E-02
+   14580    10583      546   0.1387E-16  -0.1615E-01  -0.2425E-16   0.1615E-01
+   14580     7779      546   0.2235E-17  -0.3855E-02  -0.4032E-17   0.3855E-02
+   14580    10584      546   0.6497E-17  -0.2310E-01  -0.2161E-16   0.2310E-01
+   14581     6345      424  -0.1427E-18   0.5376E-03   0.1352E-18   0.5376E-03
+   14581     6899      424   0.2119E-18  -0.1343E-02  -0.2008E-18   0.1343E-02
+   14581     6898      424  -0.9478E-19   0.7473E-03   0.8982E-19   0.7473E-03
+   14581    10583      424   0.8627E-18  -0.2220E-02  -0.8176E-18   0.2220E-02
+   14581     7779      424   0.3494E-18  -0.4433E-02  -0.3311E-18   0.4433E-02
+   14581    10584      424   0.1438E-18  -0.7019E-03  -0.1363E-18   0.7019E-03
+   14582     6345      546   0.1144E-17   0.5277E-02  -0.5950E-17   0.5277E-02
+   14582     6899      546   0.1335E-17   0.5725E-02  -0.7718E-17   0.5725E-02
+   14582     6898      546  -0.5945E-17  -0.1520E-01   0.2529E-16   0.1520E-01
+   14582    10583      546  -0.8023E-18  -0.5424E-02   0.5627E-17   0.5424E-02
+   14582     7779      546  -0.6522E-17  -0.3023E-01   0.4317E-16   0.3023E-01
+   14582    10584      546  -0.4889E-17  -0.2589E-01   0.2378E-16   0.2589E-01
+   14583     6345      546  -0.1650E-17   0.2204E-02   0.1564E-17   0.2204E-02
+   14583     6899      546  -0.1569E-17   0.2293E-02   0.1487E-17   0.2293E-02
+   14583     6898      546  -0.2327E-17   0.2366E-02   0.2205E-17   0.2366E-02
+   14583    10583      546   0.1339E-16  -0.1219E-01  -0.1269E-16   0.1219E-01
+   14583     7779      546   0.7344E-17  -0.1016E-01  -0.6960E-17   0.1016E-01
+   14583    10584      546   0.7162E-17  -0.1183E-01  -0.6787E-17   0.1183E-01
+   14604     6346      528   0.2335E-18  -0.5185E-02  -0.1329E-16   0.5185E-02
+   14604     6898      528  -0.1330E-18   0.1387E-02   0.2638E-17   0.1387E-02
+   14604     6897      528  -0.8315E-19   0.1205E-02   0.2719E-17   0.1205E-02
+   14604    10576      528   0.9159E-18  -0.7839E-02  -0.1275E-16   0.7839E-02
+   14604     7782      528   0.1145E-18  -0.1096E-02  -0.1968E-17   0.1096E-02
+   14604    10577      528   0.3037E-18  -0.5151E-02  -0.1231E-16   0.5151E-02
+   14605     6346      528   0.2349E-18   0.1973E-02  -0.8683E-18   0.1973E-02
+   14605     6898      528  -0.2158E-17  -0.5896E-02   0.7222E-17   0.5896E-02
+   14605     6897      528   0.2362E-18   0.1412E-02  -0.8728E-18   0.1412E-02
+   14605    10576      528  -0.7127E-18  -0.1193E-01   0.2867E-17   0.1193E-01
+   14605     7782      528  -0.1079E-17  -0.5184E-02   0.3916E-17   0.5184E-02
+   14605    10577      528  -0.4955E-19  -0.1461E-02   0.2702E-18   0.1461E-02
+   14607     6346      528  -0.6337E-20   0.3198E-04   0.1997E-19   0.3198E-04
+   14607     6898      528  -0.4881E-20   0.2526E-04   0.1577E-19   0.2526E-04
+   14607     6897      528  -0.1034E-19   0.5275E-04   0.3294E-19   0.5275E-04
+   14607    10576      528   0.1190E-18  -0.6058E-03  -0.3798E-18   0.6058E-03
+   14607     7782      528   0.2394E-19  -0.1219E-03  -0.7610E-19   0.1219E-03
+   14607    10577      528   0.2284E-19  -0.1167E-03  -0.7287E-19   0.1167E-03
+   14900    11990      281   0.1618E+01   0.6612E-14  -0.4136E-14   0.1618E+01
+   14900    11989      281  -0.4951E+00  -0.1706E-14   0.2494E-14   0.4951E+00
+   14900    12546      281  -0.5021E+00  -0.1542E-14   0.1683E-14   0.5021E+00
+   14900    16243      281   0.2432E+01   0.8867E-14  -0.1573E-13   0.2432E+01
+   14900    16242      281   0.4822E+00   0.1390E-14  -0.2377E-14   0.4822E+00
+   14900    16235      281   0.2517E+01   0.6799E-14  -0.5673E-14   0.2517E+01
+   14902    11990      281  -0.1739E+00   0.0000E+00  -0.2371E-15   0.1739E+00
+   14902    11989      281  -0.1585E+00   0.0000E+00  -0.1801E-15   0.1585E+00
+   14902    12546      281   0.5352E+00   0.0000E+00   0.4188E-15   0.5352E+00
+   14902    16243      281   0.1612E+00   0.0000E+00   0.2364E-15   0.1612E+00
+   14902    16242      281   0.7310E+00   0.0000E+00   0.7236E-15   0.7310E+00
+   14902    16235      281   0.9219E+00   0.0000E+00   0.1437E-14   0.9219E+00
+   14903    11990      281  -0.1039E+00  -0.1498E-15   0.4722E-15   0.1039E+00
+   14903    11989      281  -0.1189E+00  -0.1498E-15   0.4257E-15   0.1189E+00
+   14903    12546      281  -0.1122E+00  -0.1973E-15   0.6685E-15   0.1122E+00
+   14903    16243      281   0.5630E+00   0.1096E-14  -0.3848E-14   0.5630E+00
+   14903    16242      281   0.4928E+00   0.6943E-15  -0.2188E-14   0.4928E+00
+   14903    16235      281   0.6194E+00   0.6943E-15  -0.1796E-14   0.6194E+00
+   14904    12546      282   0.8032E-01   0.0000E+00   0.5925E-15   0.8032E-01
+   14904    11989      282  -0.1520E-01   0.0000E+00  -0.1121E-15   0.1520E-01
+   14904    12547      282  -0.1520E-01   0.0000E+00  -0.1121E-15   0.1520E-01
+   14904    16242      282   0.7022E-01   0.0000E+00   0.5179E-15   0.7022E-01
+   14904    16241      282   0.1037E-01   0.0000E+00   0.7647E-16   0.1037E-01
+   14904    13419      282   0.7022E-01   0.0000E+00   0.5179E-15   0.7022E-01
+   14908    11829     3808   0.1413E+01  -0.5524E-14  -0.2642E-14   0.1413E+01
+   14908    12129     3808  -0.4639E+00   0.3122E-14  -0.1057E-14   0.4639E+00
+   14908    12407     3808  -0.4646E+00   0.2382E-14  -0.5020E-15   0.4646E+00
+   14908    17081     3808   0.2313E+01  -0.1890E-13   0.8245E-14   0.2313E+01
+   14908    15410     3808   0.4614E+00  -0.3132E-14   0.1473E-14   0.4614E+00
+   14908    17080     3808   0.2322E+01  -0.9526E-14   0.1213E-14   0.2322E+01
+   14909    11829     3808  -0.2435E+00   0.1631E-14  -0.1139E-14   0.2435E+00
+   14909    12129     3808   0.6871E+00  -0.1673E-14   0.8077E-15   0.6871E+00
+   14909    12407     3808  -0.2383E+00   0.1157E-14  -0.7836E-15   0.2383E+00
+   14909    17081     3808   0.1242E+01  -0.1031E-13   0.7346E-14   0.1242E+01
+   14909    15410     3808   0.1178E+01  -0.4414E-14   0.2921E-14   0.1178E+01
+   14909    17080     3808   0.2458E+00  -0.1737E-14   0.1246E-14   0.2458E+00
+   14910    11829     3808  -0.3125E+00   0.0000E+00   0.0000E+00   0.3125E+00
+   14910    12129     3808  -0.3066E+00   0.0000E+00   0.0000E+00   0.3066E+00
+   14910    12407     3808   0.9171E+00   0.0000E+00   0.0000E+00   0.9171E+00
+   14910    17081     3808   0.3111E+00   0.0000E+00   0.0000E+00   0.3111E+00
+   14910    15410     3808   0.1513E+01   0.0000E+00   0.0000E+00   0.1513E+01
+   14910    17080     3808   0.1586E+01   0.0000E+00   0.0000E+00   0.1586E+01
+   14911    11829     3808  -0.3513E+00   0.1932E-14  -0.1449E-14   0.3513E+00
+   14911    12129     3808  -0.3570E+00   0.1932E-14  -0.1449E-14   0.3570E+00
+   14911    12407     3808  -0.3559E+00   0.2545E-14  -0.1909E-14   0.3559E+00
+   14911    17081     3808   0.1783E+01  -0.1414E-13   0.1060E-13   0.1783E+01
+   14911    15410     3808   0.1745E+01  -0.8954E-14   0.6716E-14   0.1745E+01
+   14911    17080     3808   0.1793E+01  -0.8954E-14   0.6716E-14   0.1793E+01
+   14912    11829     3807   0.1507E+01   0.0000E+00   0.0000E+00   0.1507E+01
+   14912    11828     3807  -0.5002E+00   0.0000E+00   0.0000E+00   0.5002E+00
+   14912    12129     3807  -0.4970E+00   0.0000E+00   0.0000E+00   0.4970E+00
+   14912    17085     3807   0.2511E+01   0.0000E+00   0.0000E+00   0.2511E+01
+   14912    17083     3807   0.4971E+00   0.0000E+00   0.0000E+00   0.4971E+00
+   14912    17081     3807   0.2472E+01   0.0000E+00   0.0000E+00   0.2472E+01
+   14913    11829     3807  -0.4597E+00   0.1086E-14   0.0000E+00   0.4597E+00
+   14913    11828     3807   0.1381E+01  -0.2498E-14   0.0000E+00   0.1381E+01
+   14913    12129     3807  -0.4540E+00   0.1431E-14   0.0000E+00   0.4540E+00
+   14913    17085     3807   0.2319E+01  -0.4324E-14   0.0000E+00   0.2319E+01
+   14913    17083     3807   0.2248E+01  -0.8599E-14   0.0000E+00   0.2248E+01
+   14913    17081     3807   0.4555E+00  -0.1431E-14   0.0000E+00   0.4555E+00
+   14914    11829     3807  -0.2789E+00   0.7251E-15   0.0000E+00   0.2789E+00
+   14914    11828     3807  -0.2764E+00   0.9552E-15   0.0000E+00   0.2764E+00
+   14914    12129     3807   0.7879E+00  -0.1680E-14   0.0000E+00   0.7879E+00
+   14914    17085     3807   0.2839E+00  -0.9552E-15   0.0000E+00   0.2839E+00
+   14914    17083     3807   0.1380E+01  -0.5766E-14   0.0000E+00   0.1380E+01
+   14914    17081     3807   0.1411E+01  -0.2900E-14   0.0000E+00   0.1411E+01
+   14915    11829     3807  -0.4237E+00   0.1341E-14   0.0000E+00   0.4237E+00
+   14915    11828     3807  -0.4255E+00   0.1023E-14   0.0000E+00   0.4255E+00
+   14915    12129     3807  -0.4293E+00   0.1018E-14   0.0000E+00   0.4293E+00
+   14915    17085     3807   0.2157E+01  -0.4735E-14   0.0000E+00   0.2157E+01
+   14915    17083     3807   0.2110E+01  -0.7481E-14   0.0000E+00   0.2110E+01
+   14915    17081     3807   0.2125E+01  -0.4727E-14   0.0000E+00   0.2125E+01
+   14924    11843     3803  -0.1784E+01  -0.3443E-14  -0.4021E-14   0.1784E+01
+   14924    11842     3803   0.5885E+00   0.1496E-14   0.1823E-14   0.5885E+00
+   14924    12420     3803   0.5860E+00   0.1972E-14   0.2221E-14   0.5860E+00
+   14924    17026     3803  -0.2948E+01  -0.5960E-14  -0.7942E-14   0.2948E+01
+   14924    17024     3803  -0.5842E+00  -0.1972E-14  -0.2298E-14   0.5842E+00
+   14924    17020     3803  -0.2918E+01  -0.1185E-13  -0.1285E-13   0.2918E+01
+   14925    11843     3803   0.5470E+00   0.5234E-15   0.3085E-15   0.5470E+00
+   14925    11842     3803  -0.1644E+01  -0.2784E-14  -0.5449E-15   0.1644E+01
+   14925    12420     3803   0.5442E+00   0.5211E-15   0.2344E-15   0.5442E+00
+   14925    17026     3803  -0.2745E+01  -0.2423E-14  -0.1870E-14   0.2745E+01
+   14925    17024     3803  -0.2710E+01  -0.2419E-14  -0.9415E-15   0.2710E+01
+   14925    17020     3803  -0.5447E+00  -0.3584E-15  -0.3075E-15   0.5447E+00
+   14926    11843     3803   0.4968E+00   0.1728E-14   0.8617E-15   0.4968E+00
+   14926    11842     3803   0.4965E+00   0.1312E-14   0.4454E-15   0.4965E+00
+   14926    12420     3803  -0.1491E+01  -0.3040E-14   0.1567E-14   0.1491E+01
+   14926    17026     3803  -0.4965E+00  -0.1728E-14  -0.1137E-14   0.4965E+00
+   14926    17024     3803  -0.2481E+01  -0.5247E-14  -0.1232E-14   0.2481E+01
+   14926    17020     3803  -0.2485E+01  -0.1043E-13  -0.6416E-14   0.2485E+01
+   14927    11843     3803   0.5239E+00   0.1372E-14   0.1600E-14   0.5239E+00
+   14927    11842     3803   0.5246E+00   0.1808E-14   0.2036E-14   0.5246E+00
+   14927    12420     3803   0.5265E+00   0.1372E-14   0.1673E-14   0.5265E+00
+   14927    17026     3803  -0.2637E+01  -0.6360E-14  -0.8029E-14   0.2637E+01
+   14927    17024     3803  -0.2616E+01  -0.6360E-14  -0.7417E-14   0.2616E+01
+   14927    17020     3803  -0.2622E+01  -0.1004E-13  -0.1110E-13   0.2622E+01
+   14928    12116     3804  -0.1601E+01  -0.4857E-14   0.6124E-15   0.1601E+01
+   14928    11843     3804   0.5298E+00   0.9617E-15  -0.2643E-15   0.5298E+00
+   14928    12420     3804   0.5281E+00   0.9443E-15  -0.3481E-15   0.5281E+00
+   14928    17021     3804  -0.2653E+01  -0.4558E-14   0.1057E-14   0.2653E+01
+   14928    17020     3804  -0.5269E+00  -0.6794E-15   0.3481E-15   0.5269E+00
+   14928    15496     3804  -0.2631E+01  -0.4342E-14   0.2102E-14   0.2631E+01
+   14929    12116     3804   0.5270E+00  -0.3598E-14  -0.8055E-15   0.5270E+00
+   14929    11843     3804  -0.1595E+01   0.1939E-13   0.4283E-14   0.1595E+01
+   14929    12420     3804   0.5246E+00  -0.3615E-14  -0.8055E-15   0.5246E+00
+   14929    17021     3804  -0.2641E+01   0.1657E-13   0.3733E-14   0.2641E+01
+   14929    17020     3804  -0.2611E+01   0.1679E-13   0.3733E-14   0.2611E+01
+   14929    15496     3804  -0.5234E+00   0.2433E-14   0.5498E-15   0.5234E+00
+   14930    12116     3804   0.4541E+00   0.0000E+00  -0.3106E-15   0.4541E+00
+   14930    11843     3804   0.4534E+00   0.0000E+00  -0.2358E-15   0.4534E+00
+   14930    12420     3804  -0.1359E+01   0.0000E+00   0.5464E-15   0.1359E+01
+   14930    17021     3804  -0.4540E+00   0.0000E+00   0.3106E-15   0.4540E+00
+   14930    17020     3804  -0.2265E+01   0.0000E+00   0.9431E-15   0.2265E+01
+   14930    15496     3804  -0.2273E+01   0.0000E+00   0.1875E-14   0.2273E+01
+   14931    12116     3804   0.4828E+00   0.5118E-16  -0.2466E-15   0.4828E+00
+   14931    11843     3804   0.4832E+00   0.5118E-16  -0.3248E-15   0.4832E+00
+   14931    12420     3804   0.4850E+00   0.6743E-16  -0.2466E-15   0.4850E+00
+   14931    17021     3804  -0.2429E+01  -0.3745E-15   0.1143E-14   0.2429E+01
+   14931    17020     3804  -0.2411E+01  -0.2372E-15   0.1143E-14   0.2411E+01
+   14931    15496     3804  -0.2415E+01  -0.2372E-15   0.1804E-14   0.2415E+01
+   17972    12519      252   0.1101E+00  -0.4785E-18   0.4785E-18   0.1101E+00
+   17972    12518      252  -0.3867E-01   0.2058E-18  -0.2058E-18   0.3867E-01
+   17972    12017      252  -0.3850E-01   0.2709E-18  -0.2709E-18   0.3850E-01
+   17972    13502      252   0.1948E+00  -0.8268E-18   0.8268E-18   0.1948E+00
+   17972    16064      252   0.3934E-01  -0.2701E-18   0.2701E-18   0.3934E-01
+   17972    16063      252   0.1927E+00  -0.1642E-17   0.1642E-17   0.1927E+00
+   17973    12519      252  -0.1427E+00   0.0000E+00  -0.2858E-18   0.1427E+00
+   17973    12518      252   0.4628E+00   0.0000E+00   0.1275E-17   0.4628E+00
+   17973    12017      252  -0.1413E+00   0.0000E+00  -0.3087E-18   0.1413E+00
+   17973    13502      252   0.7110E+00   0.0000E+00   0.1276E-17   0.7110E+00
+   17973    16064      252   0.6962E+00   0.0000E+00   0.1572E-17   0.6962E+00
+   17973    16063      252   0.1368E+00   0.0000E+00   0.2441E-18   0.1368E+00
+   17974    12519      252  -0.1336E+00   0.8178E-18  -0.2268E-17   0.1336E+00
+   17974    12518      252  -0.1327E+00   0.6212E-18  -0.2088E-17   0.1327E+00
+   17974    12017      252   0.4376E+00  -0.1444E-17   0.8939E-17   0.4376E+00
+   17974    13502      252   0.1280E+00  -0.8151E-18   0.1854E-17   0.1280E+00
+   17974    16064      252   0.6543E+00  -0.2496E-17   0.9437E-17   0.6543E+00
+   17974    16063      252   0.6650E+00  -0.4957E-17   0.1162E-16   0.6650E+00
+   17975    12519      252  -0.6245E-01   0.3030E-18  -0.3591E-18   0.6245E-01
+   17975    12518      252  -0.6187E-01   0.3994E-18  -0.4422E-18   0.6187E-01
+   17975    12017      252  -0.6195E-01   0.3030E-18  -0.3457E-18   0.6195E-01
+   17975    13502      252   0.3093E+00  -0.1400E-17   0.1597E-17   0.3093E+00
+   17975    16064      252   0.3136E+00  -0.1400E-17   0.1712E-17   0.3136E+00
+   17975    16063      252   0.3078E+00  -0.2207E-17   0.2406E-17   0.3078E+00
+   17976    12018      251   0.1507E+01  -0.2299E-16   0.2815E-16   0.1507E+01
+   17976    12017      251  -0.4798E+00   0.2227E-17  -0.4485E-17   0.4798E+00
+   17976    12518      251  -0.4760E+00   0.1793E-17  -0.4745E-17   0.4760E+00
+   17976    16065      251   0.2389E+01  -0.9904E-17   0.1894E-16   0.2389E+01
+   17976    16064      251   0.4678E+00   0.3356E-18   0.2640E-17   0.4678E+00
+   17976    16057      251   0.2355E+01  -0.4828E-17   0.2255E-16   0.2355E+01
+   17977    12018      251  -0.1978E+00  -0.6651E-18  -0.9847E-19   0.1978E+00
+   17977    12017      251   0.5958E+00   0.1181E-17   0.2269E-17   0.5958E+00
+   17977    12518      251  -0.1911E+00  -0.5067E-18  -0.3187E-18   0.1911E+00
+   17977    16065      251   0.1012E+01   0.4022E-17  -0.6171E-18   0.1012E+01
+   17977    16064      251   0.9275E+00   0.2027E-17   0.2157E-17   0.9275E+00
+   17977    16057      251   0.1923E+00   0.6646E-18  -0.1930E-19   0.1923E+00
+   17978    12018      251  -0.2062E+00  -0.8842E-18  -0.3624E-17   0.2062E+00
+   17978    12017      251  -0.2007E+00  -0.5024E-18  -0.3727E-17   0.2007E+00
+   17978    12518      251   0.6134E+00  -0.9694E-18   0.1858E-16   0.6134E+00
+   17978    16065      251   0.2031E+00   0.1117E-17   0.2632E-17   0.2031E+00
+   17978    16064      251   0.9766E+00   0.1555E-17   0.1767E-16   0.9766E+00
+   17978    16057      251   0.1051E+01   0.6289E-17   0.1661E-16   0.1051E+01
+   17979    12018      251  -0.2182E+00  -0.1824E-17   0.2553E-18   0.2182E+00
+   17979    12017      251  -0.2243E+00  -0.2218E-17   0.3248E-18   0.2243E+00
+   17979    12518      251  -0.2242E+00  -0.1990E-17   0.5004E-18   0.2242E+00
+   17979    16065      251   0.1129E+01   0.9901E-17  -0.2988E-17   0.1129E+01
+   17979    16064      251   0.1074E+01   0.8435E-17  -0.9055E-18   0.1074E+01
+   17979    16057      251   0.1127E+01   0.1177E-16  -0.1505E-17   0.1127E+01
+   17980    11856     3783   0.8693E+00   0.5586E-18  -0.5586E-18   0.8693E+00
+   17980    12115     3783  -0.2860E+00  -0.3200E-18   0.3200E-18   0.2860E+00
+   17980    11857     3783  -0.2909E+00  -0.2428E-18   0.2428E-18   0.2909E+00
+   17980    16950     3783   0.1411E+01   0.1923E-17  -0.1923E-17   0.1411E+01
+   17980    16948     3783   0.2879E+00   0.3200E-18  -0.3200E-18   0.2879E+00
+   17980    16952     3783   0.1473E+01   0.9670E-18  -0.9670E-18   0.1473E+01
+   17981    11856     3783  -0.1431E+00   0.7302E-18  -0.4777E-18   0.1431E+00
+   17981    12115     3783   0.3897E+00  -0.1778E-17   0.1197E-17   0.3897E+00
+   17981    11857     3783  -0.1455E+00   0.1059E-17  -0.7273E-18   0.1455E+00
+   17981    16950     3783   0.7117E+00  -0.2554E-17   0.1544E-17   0.7117E+00
+   17981    16948     3783   0.7438E+00  -0.6666E-17   0.4665E-17   0.7438E+00
+   17981    16952     3783   0.1502E+00  -0.1019E-17   0.6866E-18   0.1502E+00
+   17982    11856     3783  -0.3417E+00   0.1688E-17  -0.1220E-17   0.3417E+00
+   17982    12115     3783  -0.3397E+00   0.2225E-17  -0.1608E-17   0.3397E+00
+   17982    11857     3783   0.1031E+01  -0.3885E-17   0.2807E-17   0.1031E+01
+   17982    16950     3783   0.3395E+00  -0.2225E-17   0.1608E-17   0.3395E+00
+   17982    16948     3783   0.1690E+01  -0.1337E-16   0.9663E-17   0.1690E+01
+   17982    16952     3783   0.1715E+01  -0.6724E-17   0.4859E-17   0.1715E+01
+   17983    11856     3783  -0.2712E+00   0.1584E-17  -0.1082E-17   0.2712E+00
+   17983    12115     3783  -0.2749E+00   0.1154E-17  -0.7707E-18   0.2749E+00
+   17983    11857     3783  -0.2691E+00   0.1082E-17  -0.6988E-18   0.2691E+00
+   17983    16950     3783   0.1336E+01  -0.4721E-17   0.2950E-17   0.1336E+01
+   17983    16948     3783   0.1354E+01  -0.9042E-17   0.6242E-17   0.1354E+01
+   17983    16952     3783   0.1382E+01  -0.5354E-17   0.3576E-17   0.1382E+01
+   17984    12115     3784   0.3171E+00   0.2035E-17   0.2617E-17   0.3171E+00
+   17984    12421     3784  -0.1140E+00  -0.3840E-18  -0.4937E-18   0.1140E+00
+   17984    11857     3784  -0.1192E+00  -0.3880E-18  -0.4988E-18   0.1192E+00
+   17984    15505     3784   0.5557E+00   0.1774E-17   0.2281E-17   0.5557E+00
+   17984    16947     3784   0.1211E+00   0.2647E-18   0.3404E-18   0.1211E+00
+   17984    16948     3784   0.6183E+00   0.1798E-17   0.2312E-17   0.6183E+00
+   17985    12115     3784  -0.1950E+00   0.2574E-18  -0.2574E-18   0.1950E+00
+   17985    12421     3784   0.5795E+00  -0.5965E-18   0.5965E-18   0.5795E+00
+   17985    11857     3784  -0.2010E+00   0.3391E-18  -0.3391E-18   0.2010E+00
+   17985    15505     3784   0.9550E+00  -0.1029E-17   0.1029E-17   0.9550E+00
+   17985    16947     3784   0.1025E+01  -0.2047E-17   0.2047E-17   0.1025E+01
+   17985    16948     3784   0.2000E+00  -0.3391E-18   0.3391E-18   0.2000E+00
+   17986    12115     3784  -0.3179E+00   0.3556E-18   0.1378E-17   0.3179E+00
+   17986    12421     3784  -0.3190E+00   0.4691E-18   0.1264E-17   0.3190E+00
+   17986    11857     3784   0.9756E+00  -0.8285E-18  -0.8389E-17   0.9756E+00
+   17986    15505     3784   0.3151E+00  -0.4673E-18  -0.7157E-18   0.3151E+00
+   17986    16947     3784   0.1595E+01  -0.2828E-17  -0.5207E-17   0.1595E+01
+   17986    16948     3784   0.1582E+01  -0.1423E-17  -0.6612E-17   0.1582E+01
+   17987    12115     3784  -0.2344E+00   0.3778E-18  -0.3778E-18   0.2344E+00
+   17987    12421     3784  -0.2338E+00   0.2877E-18  -0.2877E-18   0.2338E+00
+   17987    11857     3784  -0.2293E+00   0.2865E-18  -0.2865E-18   0.2293E+00
+   17987    15505     3784   0.1134E+01  -0.1327E-17   0.1327E-17   0.1134E+01
+   17987    16947     3784   0.1180E+01  -0.2099E-17   0.2099E-17   0.1180E+01
+   17987    16948     3784   0.1171E+01  -0.1331E-17   0.1331E-17   0.1171E+01
+   17996    11913     3788  -0.1107E+01   0.2977E-14  -0.5092E-14   0.1107E+01
+   17996    12434     3788   0.3629E+00  -0.1564E-14   0.7030E-15   0.3629E+00
+   17996    12102     3788   0.3645E+00  -0.1389E-14   0.1109E-14   0.3645E+00
+   17996    16666     3788  -0.1805E+01   0.8726E-14  -0.1579E-14   0.1805E+01
+   17996    15578     3788  -0.3608E+00   0.1675E-14  -0.5754E-15   0.3608E+00
+   17996    16667     3788  -0.1826E+01   0.6515E-14  -0.6689E-14   0.1826E+01
+   17997    11913     3788   0.3371E+00  -0.2159E-14  -0.2692E-14   0.3371E+00
+   17997    12434     3788  -0.9979E+00   0.1893E-14   0.5699E-14   0.9979E+00
+   17997    12102     3788   0.3362E+00  -0.2450E-14  -0.3044E-14   0.3362E+00
+   17997    16666     3788  -0.1682E+01   0.1047E-13   0.1254E-13   0.1682E+01
+   17997    15578     3788  -0.1680E+01   0.1407E-13   0.1696E-13   0.1680E+01
+   17997    16667     3788  -0.3384E+00   0.3000E-14   0.3272E-14   0.3384E+00
+   17998    11913     3788   0.4054E+00  -0.2569E-14  -0.1171E-14   0.4054E+00
+   17998    12434     3788   0.4016E+00  -0.3075E-14  -0.2014E-14   0.4016E+00
+   17998    12102     3788  -0.1222E+01   0.5602E-14   0.3144E-14   0.1222E+01
+   17998    16666     3788  -0.4020E+00   0.3221E-14   0.1823E-14   0.4020E+00
+   17998    15578     3788  -0.1993E+01   0.1768E-13   0.1344E-13   0.1993E+01
+   17998    16667     3788  -0.2029E+01   0.1133E-13   0.2893E-14   0.2029E+01
+   17999    11913     3788   0.3451E+00  -0.3633E-14  -0.2484E-14   0.3451E+00
+   17999    12434     3788   0.3456E+00  -0.3161E-14  -0.1716E-14   0.3456E+00
+   17999    12102     3788   0.3452E+00  -0.3346E-14  -0.2123E-14   0.3452E+00
+   17999    16666     3788  -0.1721E+01   0.1656E-13   0.1063E-13   0.1721E+01
+   17999    15578     3788  -0.1723E+01   0.1900E-13   0.1367E-13   0.1723E+01
+   17999    16667     3788  -0.1732E+01   0.1508E-13   0.7258E-14   0.1732E+01
+   18000    11912     3787  -0.1145E+01   0.2826E-15   0.2826E-15   0.1145E+01
+   18000    12434     3787   0.3789E+00  -0.1215E-15  -0.1215E-15   0.3789E+00
+   18000    11913     3787   0.3805E+00  -0.1600E-15  -0.1600E-15   0.3805E+00
+   18000    16669     3787  -0.1888E+01   0.4882E-15   0.4882E-15   0.1888E+01
+   18000    16666     3787  -0.3789E+00   0.1595E-15   0.1595E-15   0.3789E+00
+   18000    16671     3787  -0.1907E+01   0.9698E-15   0.9698E-15   0.1907E+01
+   18001    11912     3787   0.3601E+00   0.0000E+00   0.0000E+00   0.3601E+00
+   18001    12434     3787  -0.1077E+01   0.0000E+00   0.0000E+00   0.1077E+01
+   18001    11913     3787   0.3587E+00   0.0000E+00   0.0000E+00   0.3587E+00
+   18001    16669     3787  -0.1800E+01   0.0000E+00   0.0000E+00   0.1800E+01
+   18001    16666     3787  -0.1791E+01   0.0000E+00   0.0000E+00   0.1791E+01
+   18001    16671     3787  -0.3593E+00   0.0000E+00   0.0000E+00   0.3593E+00
+   18002    11912     3787   0.4078E+00  -0.1328E-14   0.9011E-15   0.4078E+00
+   18002    12434     3787   0.4059E+00  -0.1282E-14   0.9374E-15   0.4059E+00
+   18002    11913     3787  -0.1237E+01   0.6461E-14  -0.5397E-14   0.1237E+01
+   18002    16669     3787  -0.4047E+00   0.9626E-15  -0.5642E-15   0.4047E+00
+   18002    16666     3787  -0.2021E+01   0.5871E-14  -0.4431E-14   0.2021E+01
+   18002    16671     3787  -0.2043E+01   0.6393E-14  -0.3929E-14   0.2043E+01
+   18003    11912     3787   0.3658E+00  -0.1184E-15  -0.1184E-15   0.3658E+00
+   18003    12434     3787   0.3679E+00  -0.1560E-15  -0.1560E-15   0.3679E+00
+   18003    11913     3787   0.3658E+00  -0.1184E-15  -0.1184E-15   0.3658E+00
+   18003    16669     3787  -0.1827E+01   0.5487E-15   0.5486E-15   0.1827E+01
+   18003    16666     3787  -0.1827E+01   0.5487E-15   0.5486E-15   0.1827E+01
+   18003    16671     3787  -0.1840E+01   0.8662E-15   0.8662E-15   0.1840E+01
+   18004    12491      221   0.1613E+00  -0.6520E-15   0.0000E+00   0.1613E+00
+   18004    12490      221  -0.5732E-01   0.1220E-15   0.0000E+00   0.5732E-01
+   18004    12045      221  -0.5610E-01   0.1226E-15   0.0000E+00   0.5610E-01
+   18004    13587      221   0.2923E+00  -0.5665E-15   0.0000E+00   0.2923E+00
+   18004    15890      221   0.5790E-01  -0.8395E-16   0.0000E+00   0.5790E-01
+   18004    15889      221   0.2773E+00  -0.5675E-15   0.0000E+00   0.2773E+00
+   18005    12491      221  -0.1724E+00  -0.5031E-16   0.0000E+00   0.1724E+00
+   18005    12490      221   0.5517E+00   0.1167E-15   0.0000E+00   0.5517E+00
+   18005    12045      221  -0.1717E+00  -0.6595E-16   0.0000E+00   0.1717E+00
+   18005    13587      221   0.8589E+00   0.2012E-15   0.0000E+00   0.8589E+00
+   18005    15890      221   0.8498E+00   0.3993E-15   0.0000E+00   0.8498E+00
+   18005    15889      221   0.1671E+00   0.6617E-16   0.0000E+00   0.1671E+00
+   18006    12491      221  -0.1268E+00   0.3496E-15  -0.3889E-15   0.1268E+00
+   18006    12490      221  -0.1273E+00   0.3355E-15  -0.3872E-15   0.1273E+00
+   18006    12045      221   0.4064E+00  -0.1978E-14   0.2069E-14   0.4064E+00
+   18006    13587      221   0.1236E+00  -0.2146E-15   0.2664E-15   0.1236E+00
+   18006    15890      221   0.6341E+00  -0.1486E-14   0.1797E-14   0.6341E+00
+   18006    15889      221   0.6284E+00  -0.1644E-14   0.1801E-14   0.6284E+00
+   18007    12491      221  -0.8654E-01  -0.4011E-16   0.0000E+00   0.8654E-01
+   18007    12490      221  -0.8502E-01  -0.3045E-16   0.0000E+00   0.8502E-01
+   18007    12045      221  -0.8619E-01  -0.3045E-16   0.0000E+00   0.8619E-01
+   18007    13587      221   0.4319E+00   0.1411E-15   0.0000E+00   0.4319E+00
+   18007    15890      221   0.4349E+00   0.2228E-15   0.0000E+00   0.4349E+00
+   18007    15889      221   0.4220E+00   0.1411E-15   0.0000E+00   0.4220E+00
+   18008    12046      222   0.1355E+01  -0.1950E-14  -0.6491E-14   0.1355E+01
+   18008    12045      222  -0.4283E+00  -0.1487E-14   0.3067E-14   0.4283E+00
+   18008    12490      222  -0.4295E+00  -0.8179E-15   0.2405E-14   0.4295E+00
+   18008    15891      222   0.2127E+01   0.1066E-13  -0.1800E-13   0.2127E+01
+   18008    15890      222   0.4197E+00   0.1882E-14  -0.2969E-14   0.4197E+00
+   18008    15883      222   0.2141E+01   0.2436E-14  -0.9783E-14   0.2141E+01
+   18009    12046      222  -0.1819E+00  -0.1373E-14   0.1423E-14   0.1819E+00
+   18009    12045      222   0.5401E+00   0.2387E-14  -0.2503E-14   0.5401E+00
+   18009    12490      222  -0.1768E+00  -0.1014E-14   0.1080E-14   0.1768E+00
+   18009    15891      222   0.9279E+00   0.8388E-14  -0.8589E-14   0.9279E+00
+   18009    15890      222   0.8648E+00   0.3922E-14  -0.4320E-14   0.8648E+00
+   18009    15883      222   0.1790E+00   0.1357E-14  -0.1423E-14   0.1790E+00
+   18010    12046      222  -0.2214E+00   0.3441E-14  -0.3381E-14   0.2214E+00
+   18010    12045      222  -0.2153E+00   0.3446E-14  -0.3367E-14   0.2153E+00
+   18010    12490      222   0.6675E+00  -0.1813E-13   0.1799E-13   0.6675E+00
+   18010    15891      222   0.2167E+00  -0.2395E-14   0.2316E-14   0.2167E+00
+   18010    15890      222   0.1052E+01  -0.1610E-13   0.1563E-13   0.1052E+01
+   18010    15883      222   0.1129E+01  -0.1590E-13   0.1566E-13   0.1129E+01
+   18011    12046      222  -0.2211E+00  -0.1179E-14   0.1260E-14   0.2211E+00
+   18011    12045      222  -0.2271E+00  -0.1199E-14   0.1260E-14   0.2271E+00
+   18011    12490      222  -0.2262E+00  -0.1598E-14   0.1660E-14   0.2262E+00
+   18011    15891      222   0.1135E+01   0.8935E-14  -0.9218E-14   0.1135E+01
+   18011    15890      222   0.1093E+01   0.5391E-14  -0.5839E-14   0.1093E+01
+   18011    15883      222   0.1144E+01   0.5555E-14  -0.5839E-14   0.1144E+01
+   18012    11899     3800   0.4784E+00   0.2490E-14  -0.2490E-14   0.4784E+00
+   18012    11898     3800  -0.1583E+00  -0.4909E-15   0.4909E-15   0.1583E+00
+   18012    12101     3800  -0.1567E+00  -0.4807E-15   0.4807E-15   0.1567E+00
+   18012    16753     3800   0.7965E+00   0.2322E-14  -0.2322E-14   0.7965E+00
+   18012    16751     3800   0.1567E+00   0.3469E-15  -0.3469E-15   0.1567E+00
+   18012    16748     3800   0.7768E+00   0.2215E-14  -0.2215E-14   0.7768E+00
+   18013    11899     3800  -0.1216E+00  -0.1085E-14   0.7799E-15   0.1216E+00
+   18013    11898     3800   0.3625E+00   0.2480E-14  -0.2453E-14   0.3625E+00
+   18013    12101     3800  -0.1180E+00  -0.1414E-14   0.9399E-15   0.1180E+00
+   18013    16753     3800   0.6215E+00   0.4380E-14  -0.3311E-14   0.6215E+00
+   18013    16751     3800   0.5763E+00   0.8450E-14  -0.5301E-14   0.5763E+00
+   18013    16748     3800   0.1194E+00   0.1420E-14  -0.8774E-15   0.1194E+00
+   18014    11899     3800  -0.1650E-01  -0.1205E-15   0.6024E-16   0.1650E-01
+   18014    11898     3800  -0.1445E-01  -0.1587E-15   0.7937E-16   0.1445E-01
+   18014    12101     3800   0.3095E-01   0.2792E-15  -0.1396E-15   0.3095E-01
+   18014    16753     3800   0.1760E-01   0.1587E-15  -0.7937E-16   0.1760E-01
+   18014    16751     3800   0.6704E-01   0.9582E-15  -0.4791E-15   0.6704E-01
+   18014    16748     3800   0.9260E-01   0.4820E-15  -0.2410E-15   0.9260E-01
+   18015    11899     3800  -0.1089E+00  -0.1299E-14   0.6600E-15   0.1089E+00
+   18015    11898     3800  -0.1104E+00  -0.9960E-15   0.5085E-15   0.1104E+00
+   18015    12101     3800  -0.1125E+00  -0.9984E-15   0.5130E-15   0.1125E+00
+   18015    16753     3800   0.5689E+00   0.4667E-14  -0.2410E-14   0.5689E+00
+   18015    16751     3800   0.5381E+00   0.7229E-14  -0.3663E-14   0.5381E+00
+   18015    16748     3800   0.5512E+00   0.4603E-14  -0.2350E-14   0.5512E+00
+   18016    12101     3799   0.1313E-01   0.0000E+00   0.0000E+00   0.1313E-01
+   18016    12435     3799  -0.5667E-02   0.0000E+00   0.0000E+00   0.5667E-02
+   18016    11899     3799  -0.7465E-02   0.0000E+00   0.0000E+00   0.7465E-02
+   18016    15586     3799   0.2267E-01   0.0000E+00   0.0000E+00   0.2267E-01
+   18016    16747     3799   0.7465E-02   0.0000E+00   0.0000E+00   0.7465E-02
+   18016    16748     3799   0.4506E-01   0.0000E+00   0.0000E+00   0.4506E-01
+   18017    12101     3799  -0.5206E-01   0.2968E-15  -0.5823E-16   0.5206E-01
+   18017    12435     3799   0.1568E+00  -0.1371E-14   0.1024E-15   0.1568E+00
+   18017    11899     3799  -0.5653E-01   0.2827E-15  -0.4420E-16   0.5653E-01
+   18017    15586     3799   0.2446E+00  -0.1457E-14   0.3515E-15   0.2446E+00
+   18017    16747     3799   0.3003E+00  -0.1282E-14   0.1768E-15   0.3003E+00
+   18017    16748     3799   0.5513E-01  -0.2211E-15   0.5823E-16   0.5513E-01
+   18018    12101     3799  -0.1583E+00   0.1797E-14  -0.1797E-14   0.1583E+00
+   18018    12435     3799  -0.1588E+00   0.1797E-14  -0.1797E-14   0.1588E+00
+   18018    11899     3799   0.4876E+00  -0.9557E-14   0.9557E-14   0.4876E+00
+   18018    15586     3799   0.1569E+00  -0.1227E-14   0.1227E-14   0.1569E+00
+   18018    16747     3799   0.7934E+00  -0.8330E-14   0.8330E-14   0.7934E+00
+   18018    16748     3799   0.7883E+00  -0.8330E-14   0.8330E-14   0.7883E+00
+   18019    12101     3799  -0.8410E-01   0.7275E-16  -0.7275E-16   0.8410E-01
+   18019    12435     3799  -0.8309E-01   0.7275E-16  -0.7275E-16   0.8309E-01
+   18019    11899     3799  -0.7971E-01   0.9585E-16  -0.9585E-16   0.7971E-01
+   18019    15586     3799   0.3896E+00  -0.5324E-15   0.5324E-15   0.3896E+00
+   18019    16747     3799   0.4267E+00  -0.3372E-15   0.3372E-15   0.4267E+00
+   18019    16748     3799   0.4182E+00  -0.3372E-15   0.3372E-15   0.4182E+00
+   18028    12448     3795  -0.7855E+00   0.1165E-14  -0.3114E-14   0.7855E+00
+   18028    11871     3795   0.2585E+00  -0.6622E-15   0.1344E-14   0.2585E+00
+   18028    11870     3795   0.2586E+00  -0.5027E-15   0.1770E-14   0.2586E+00
+   18028    16885     3795  -0.1291E+01   0.3997E-14  -0.5375E-14   0.1291E+01
+   18028    16891     3795  -0.2572E+00   0.6622E-15  -0.1770E-14   0.2572E+00
+   18028    16889     3795  -0.1292E+01   0.2011E-14  -0.1069E-13   0.1292E+01
+   18029    12448     3795   0.3045E+00  -0.3576E-15   0.3996E-15   0.3045E+00
+   18029    11871     3795  -0.9368E+00   0.3927E-15  -0.9291E-15   0.9368E+00
+   18029    11870     3795   0.3061E+00  -0.4841E-16   0.5261E-15   0.3061E+00
+   18029    16885     3795  -0.1514E+01   0.2944E-14  -0.1605E-14   0.1514E+01
+   18029    16891     3795  -0.1533E+01  -0.9007E-15  -0.3189E-14   0.1533E+01
+   18029    16889     3795  -0.3025E+00   0.2329E-15  -0.5243E-15   0.3025E+00
+   18030    12448     3795   0.2630E+00   0.3555E-15   0.2128E-14   0.2630E+00
+   18030    11871     3795   0.2644E+00   0.4683E-15   0.1814E-14   0.2644E+00
+   18030    11870     3795  -0.7936E+00  -0.8238E-15  -0.3943E-14   0.7936E+00
+   18030    16885     3795  -0.2633E+00  -0.4683E-15  -0.2241E-14   0.2633E+00
+   18030    16891     3795  -0.1327E+01  -0.2827E-14  -0.8210E-14   0.1327E+01
+   18030    16889     3795  -0.1309E+01  -0.1422E-14  -0.1212E-13   0.1309E+01
+   18031    12448     3795   0.2565E+00  -0.4635E-16   0.1774E-14   0.2565E+00
+   18031    11871     3795   0.2552E+00  -0.1565E-15   0.2081E-14   0.2552E+00
+   18031    11870     3795   0.2557E+00  -0.3164E-15   0.1664E-14   0.2557E+00
+   18031    16885     3795  -0.1278E+01   0.2077E-14  -0.7710E-14   0.1278E+01
+   18031    16891     3795  -0.1285E+01  -0.2057E-15  -0.8642E-14   0.1285E+01
+   18031    16889     3795  -0.1274E+01   0.7255E-15  -0.1124E-13   0.1274E+01
+   18032    12088     3796  -0.1056E+01  -0.1494E-14   0.1195E-13   0.1056E+01
+   18032    11871     3796   0.3449E+00   0.6445E-15  -0.3474E-14   0.3449E+00
+   18032    12448     3796   0.3434E+00   0.8491E-15  -0.2697E-14   0.3434E+00
+   18032    16886     3796  -0.1726E+01  -0.2578E-14   0.1984E-13   0.1726E+01
+   18032    16885     3796  -0.3409E+00  -0.8491E-15   0.2716E-14   0.3409E+00
+   18032    15654     3796  -0.1707E+01  -0.5125E-14   0.1017E-13   0.1707E+01
+   18033    12088     3796   0.2954E+00   0.0000E+00  -0.2117E-14   0.2954E+00
+   18033    11871     3796  -0.8937E+00   0.0000E+00   0.3723E-14   0.8937E+00
+   18033    12448     3796   0.2922E+00   0.0000E+00  -0.1607E-14   0.2922E+00
+   18033    16886     3796  -0.1487E+01   0.0000E+00   0.1278E-13   0.1487E+01
+   18033    16885     3796  -0.1448E+01   0.0000E+00   0.6427E-14   0.1448E+01
+   18033    15654     3796  -0.2921E+00   0.0000E+00   0.2117E-14   0.2921E+00
+   18034    12088     3796   0.2499E+00   0.7297E-15   0.7297E-15   0.2499E+00
+   18034    11871     3796   0.2483E+00   0.5689E-15   0.5689E-15   0.2483E+00
+   18034    12448     3796  -0.7501E+00  -0.1505E-14  -0.1505E-14   0.7501E+00
+   18034    16886     3796  -0.2488E+00  -0.7099E-15  -0.7099E-15   0.2488E+00
+   18034    16885     3796  -0.1235E+01  -0.2315E-14  -0.2315E-14   0.1235E+01
+   18034    15654     3796  -0.1255E+01  -0.4317E-14  -0.4317E-14   0.1255E+01
+   18035    12088     3796   0.2702E+00   0.5376E-15  -0.9676E-15   0.2702E+00
+   18035    11871     3796   0.2716E+00   0.7083E-15  -0.7970E-15   0.2716E+00
+   18035    12448     3796   0.2729E+00   0.5376E-15  -0.1445E-14   0.2729E+00
+   18035    16886     3796  -0.1369E+01  -0.2492E-14   0.8523E-14   0.1369E+01
+   18035    16885     3796  -0.1346E+01  -0.2492E-14   0.4485E-14   0.1346E+01
+   18035    15654     3796  -0.1358E+01  -0.3934E-14   0.3043E-14   0.1358E+01
+   18036    12073      191   0.2162E+00   0.0000E+00   0.0000E+00   0.2162E+00
+   18036    12463      191  -0.7062E-01   0.0000E+00   0.0000E+00   0.7062E-01
+   18036    12462      191  -0.7307E-01   0.0000E+00   0.0000E+00   0.7307E-01
+   18036    15728      191   0.3439E+00   0.0000E+00   0.0000E+00   0.3439E+00
+   18036    13672      191   0.7176E-01   0.0000E+00   0.0000E+00   0.7176E-01
+   18036    15729      191   0.3744E+00   0.0000E+00   0.0000E+00   0.3744E+00
+   18037    12073      191  -0.5775E-01  -0.8581E-15  -0.8581E-15   0.5775E-01
+   18037    12463      191   0.1681E+00   0.1974E-14   0.1974E-14   0.1681E+00
+   18037    12462      191  -0.6110E-01  -0.1131E-14  -0.1131E-14   0.6110E-01
+   18037    15728      191   0.2777E+00   0.3418E-14   0.3418E-14   0.2777E+00
+   18037    13672      191   0.3191E+00   0.6796E-14   0.6796E-14   0.3191E+00
+   18037    15729      191   0.6080E-01   0.1131E-14   0.1131E-14   0.6080E-01
+   18038    12073      191  -0.2000E+00  -0.6939E-14   0.2920E-14   0.2000E+00
+   18038    12463      191  -0.2009E+00  -0.7577E-14   0.2282E-14   0.2009E+00
+   18038    12462      191   0.6347E+00   0.3087E-13  -0.2156E-13   0.6347E+00
+   18038    15728      191   0.1959E+00   0.6012E-14  -0.7177E-15   0.1959E+00
+   18038    13672      191   0.1002E+01   0.3883E-13  -0.6868E-14   0.1002E+01
+   18038    15729      191   0.9914E+00   0.3089E-13  -0.1481E-13   0.9914E+00
+   18039    12073      191  -0.9667E-01  -0.1494E-14  -0.1494E-14   0.9667E-01
+   18039    12463      191  -0.9632E-01  -0.1140E-14  -0.1140E-14   0.9632E-01
+   18039    12462      191  -0.9340E-01  -0.1135E-14  -0.1135E-14   0.9340E-01
+   18039    15728      191   0.4603E+00   0.5278E-14   0.5278E-14   0.4603E+00
+   18039    13672      191   0.4877E+00   0.8339E-14   0.8339E-14   0.4877E+00
+   18039    15729      191   0.4847E+00   0.5268E-14   0.5268E-14   0.4847E+00
+   18040    12462      192   0.7097E+00   0.1249E-13  -0.1864E-13   0.7097E+00
+   18040    12074      192  -0.2344E+00  -0.5009E-15   0.4000E-14   0.2344E+00
+   18040    12073      192  -0.2294E+00  -0.1166E-14   0.3822E-14   0.2294E+00
+   18040    15723      192   0.1188E+01  -0.1547E-14  -0.1957E-13   0.1188E+01
+   18040    15730      192   0.2299E+00  -0.5343E-15  -0.2964E-14   0.2299E+00
+   18040    15729      192   0.1126E+01   0.6735E-14  -0.1736E-13   0.1126E+01
+   18041    12462      192  -0.3438E+00   0.5917E-14   0.4236E-14   0.3438E+00
+   18041    12074      192   0.1073E+01  -0.8581E-14  -0.9264E-14   0.1073E+01
+   18041    12073      192  -0.3410E+00   0.6059E-14   0.5029E-14   0.3410E+00
+   18041    15723      192   0.1722E+01  -0.3054E-13  -0.1895E-13   0.1722E+01
+   18041    15730      192   0.1688E+01  -0.3230E-13  -0.2883E-13   0.1688E+01
+   18041    15729      192   0.3361E+00  -0.7273E-14  -0.5267E-14   0.3361E+00
+   18042    12462      192  -0.1186E+00   0.3654E-14  -0.7420E-15   0.1186E+00
+   18042    12074      192  -0.1208E+00   0.4116E-14  -0.2798E-15   0.1208E+00
+   18042    12073      192   0.3436E+00  -0.1506E-13   0.8314E-14   0.3436E+00
+   18042    15723      192   0.1218E+00  -0.3419E-14  -0.4179E-15   0.1218E+00
+   18042    15730      192   0.6149E+00  -0.2177E-13  -0.1391E-14   0.6149E+00
+   18042    15729      192   0.5868E+00  -0.1601E-13   0.4363E-14   0.5868E+00
+   18043    12462      192  -0.2037E+00   0.4739E-14   0.3329E-14   0.2037E+00
+   18043    12074      192  -0.2012E+00   0.4061E-14   0.2651E-14   0.2012E+00
+   18043    12073      192  -0.2064E+00   0.4672E-14   0.2815E-14   0.2064E+00
+   18043    15723      192   0.1041E+01  -0.2398E-13  -0.1367E-13   0.1041E+01
+   18043    15730      192   0.1018E+01  -0.2455E-13  -0.1802E-13   0.1018E+01
+   18043    15729      192   0.9973E+00  -0.1882E-13  -0.1229E-13   0.9973E+00
+   20361    12031     1854   0.0000E+00   0.1232E-16   0.3132E-03   0.3132E-03
+   20361    12032     1854   0.0000E+00  -0.4717E-16  -0.1199E-02   0.1199E-02
+   20361    12033     1854   0.0000E+00   0.7608E-17   0.1934E-03   0.1934E-03
+   20361    15981     1854   0.0000E+00  -0.6206E-16  -0.1578E-02   0.1578E-02
+   20361    15970     1854   0.0000E+00  -0.2708E-16  -0.6884E-03   0.6884E-03
+   20361    15980     1854   0.0000E+00  -0.7379E-17  -0.1876E-03   0.1876E-03
+   20662    12046     1845   0.0000E+00   0.0000E+00   0.7238E-03   0.7238E-03
+   20662    12044     1845   0.0000E+00   0.0000E+00   0.8058E-03   0.8058E-03
+   20662    12045     1845   0.0000E+00   0.0000E+00  -0.3713E-02   0.3713E-02
+   20662    15896     1845   0.0000E+00   0.0000E+00  -0.5481E-03   0.5481E-03
+   20662    15897     1845   0.0000E+00   0.0000E+00  -0.3751E-02   0.3751E-02
+   20662    15891     1845   0.0000E+00   0.0000E+00  -0.3247E-02   0.3247E-02
+   20810    12074     1853   0.7909E-16  -0.1422E-15   0.7073E-03   0.7073E-03
+   20810    12072     1853   0.8805E-16  -0.1583E-15   0.7874E-03   0.7874E-03
+   20810    12073     1853  -0.4057E-15   0.7295E-15  -0.3628E-02   0.3628E-02
+   20810    15738     1853  -0.5989E-16   0.1077E-15  -0.5356E-03   0.5356E-03
+   20810    15739     1853  -0.4098E-15   0.7369E-15  -0.3665E-02   0.3665E-02
+   20810    15730     1853  -0.3548E-15   0.6379E-15  -0.3173E-02   0.3173E-02
+   21204    11815     3809  -0.2129E+01   0.7580E-15   0.1201E-14   0.2129E+01
+   21204    11814     3809   0.7043E+00  -0.2203E-14  -0.1771E-14   0.7043E+00
+   21204    12406     3809   0.7024E+00  -0.3364E-14  -0.2641E-14   0.7024E+00
+   21204    17165     3809  -0.3526E+01   0.7849E-14   0.6438E-14   0.3526E+01
+   21204    17163     3809  -0.7008E+00   0.3807E-14   0.2937E-14   0.7008E+00
+   21204    17159     3809  -0.3502E+01   0.2216E-13   0.1717E-13   0.3502E+01
+   21205    11815     3809   0.6661E+00   0.5563E-14   0.5563E-14   0.6661E+00
+   21205    11814     3809  -0.2000E+01  -0.3408E-13  -0.3408E-13   0.2000E+01
+   21205    12406     3809   0.6638E+00   0.5087E-14   0.5087E-14   0.6638E+00
+   21205    17165     3809  -0.3338E+01  -0.2674E-13  -0.2674E-13   0.3338E+01
+   21205    17163     3809  -0.3309E+01  -0.2081E-13  -0.2081E-13   0.3309E+01
+   21205    17159     3809  -0.6642E+00  -0.2845E-14  -0.2845E-14   0.6642E+00
+   21206    11815     3809   0.6281E+00  -0.1245E-13  -0.2068E-13   0.6281E+00
+   21206    11814     3809   0.6277E+00  -0.1185E-13  -0.2035E-13   0.6277E+00
+   21206    12406     3809  -0.1885E+01   0.4631E-13   0.9399E-13   0.1885E+01
+   21206    17165     3809  -0.6277E+00   0.1080E-13   0.1607E-13   0.6277E+00
+   21206    17163     3809  -0.3137E+01   0.5548E-13   0.9541E-13   0.3137E+01
+   21206    17159     3809  -0.3142E+01   0.6290E-13   0.9954E-13   0.3142E+01
+   21207    11815     3809   0.6489E+00  -0.5355E-14  -0.4502E-14   0.6489E+00
+   21207    11814     3809   0.6495E+00  -0.5969E-14  -0.4846E-14   0.6495E+00
+   21207    12406     3809   0.6510E+00  -0.4886E-14  -0.4034E-14   0.6510E+00
+   21207    17165     3809  -0.3259E+01   0.2265E-13   0.1870E-13   0.3259E+01
+   21207    17163     3809  -0.3241E+01   0.2661E-13   0.2266E-13   0.3241E+01
+   21207    17159     3809  -0.3247E+01   0.3180E-13   0.2556E-13   0.3247E+01
+   21208    11815     3810  -0.1920E+01  -0.5815E-14  -0.7582E-14   0.1920E+01
+   21208    12406     3810   0.6341E+00   0.3542E-14   0.1252E-14   0.6341E+00
+   21208    11962     3810   0.6363E+00   0.2273E-14  -0.8311E-15   0.6363E+00
+   21208    17159     3810  -0.3160E+01  -0.2290E-13  -0.1293E-13   0.3160E+01
+   21208    16387     3810  -0.6333E+00  -0.3306E-14   0.7415E-15   0.6333E+00
+   21208    17160     3810  -0.3188E+01  -0.7092E-14   0.1301E-13   0.3188E+01
+   21209    11815     3810   0.5734E+00   0.2064E-14   0.2156E-14   0.5734E+00
+   21209    12406     3810  -0.1719E+01   0.3135E-14  -0.8806E-15   0.1719E+01
+   21209    11962     3810   0.5740E+00   0.1109E-14   0.1439E-14   0.5740E+00
+   21209    17159     3810  -0.2865E+01  -0.1512E-13  -0.1416E-13   0.2865E+01
+   21209    16387     3810  -0.2873E+01  -0.3227E-14  -0.5237E-14   0.2873E+01
+   21209    17160     3810  -0.5740E+00  -0.2667E-14  -0.2415E-14   0.5740E+00
+   21210    11815     3810   0.6454E+00   0.5950E-14   0.1459E-14   0.6454E+00
+   21210    12406     3810   0.6438E+00   0.6188E-14   0.2780E-14   0.6438E+00
+   21210    11962     3810  -0.1948E+01  -0.3516E-13  -0.2726E-13   0.1948E+01
+   21210    17159     3810  -0.6427E+00  -0.3747E-14   0.7441E-15   0.6427E+00
+   21210    16387     3810  -0.3211E+01  -0.2916E-13  -0.1552E-13   0.3211E+01
+   21210    17160     3810  -0.3231E+01  -0.2619E-13   0.9205E-15   0.3231E+01
+   21211    11815     3810   0.6013E+00   0.2412E-14  -0.1605E-14   0.6013E+00
+   21211    12406     3810   0.6028E+00   0.2185E-14  -0.2859E-14   0.6028E+00
+   21211    11962     3810   0.6008E+00   0.3404E-14  -0.8611E-15   0.6008E+00
+   21211    17159     3810  -0.3001E+01  -0.1956E-13   0.1151E-14   0.3001E+01
+   21211    16387     3810  -0.3005E+01  -0.1118E-13   0.7439E-14   0.3005E+01
+   21211    17160     3810  -0.3018E+01  -0.9262E-14   0.1803E-13   0.3018E+01
+   21844    11810      360   0.0000E+00  -0.4798E+00   0.0000E+00   0.4798E+00
+   21844    12080      360   0.0000E+00   0.1210E+00   0.0000E+00   0.1210E+00
+   21844    11811      360   0.0000E+00   0.1312E+00   0.0000E+00   0.1312E+00
+   21844    17180      360   0.0000E+00  -0.5163E+00   0.0000E+00   0.5163E+00
+   21844    17177      360   0.0000E+00  -0.1144E+00   0.0000E+00   0.1144E+00
+   21844    17183      360   0.0000E+00  -0.6147E+00   0.0000E+00   0.6147E+00
+   21846    11810      360   0.1959E-16   0.1434E+00   0.1240E-16   0.1434E+00
+   21846    12080      360   0.2419E-16   0.1176E+00   0.1531E-16   0.1176E+00
+   21846    11811      360  -0.6292E-16  -0.5433E+00  -0.3982E-16   0.5433E+00
+   21846    17180      360  -0.2079E-16  -0.1041E+00  -0.1316E-16   0.1041E+00
+   21846    17177      360  -0.1200E-15  -0.4803E+00  -0.7592E-16   0.4803E+00
+   21846    17183      360  -0.8852E-16  -0.8051E+00  -0.5602E-16   0.8051E+00
+   21847    11810      360   0.6177E-20   0.1671E-01   0.3909E-20   0.1671E-01
+   21847    12080      360   0.7722E-20   0.2052E-01   0.4887E-20   0.2052E-01
+   21847    11811      360   0.1959E-20   0.1272E-01   0.1240E-20   0.1272E-01
+   21847    17180      360  -0.1609E-19  -0.5813E-01  -0.1018E-19   0.5813E-01
+   21847    17177      360  -0.1806E-19  -0.7638E-01  -0.1143E-19   0.7638E-01
+   21847    17183      360  -0.9782E-19  -0.1136E+00  -0.6191E-19   0.1136E+00
+   21886    12080      360   0.8845E-17   0.3528E-01   0.7878E-17   0.3528E-01
+   21886    12456      360   0.1068E-16   0.4086E-01   0.1086E-16   0.4086E-01
+   21886    11811      360  -0.3644E-16  -0.2219E+00  -0.3368E-16   0.2219E+00
+   21886    15689      360  -0.6888E-17  -0.2179E-01  -0.6714E-17   0.2179E-01
+   21886    17175      360  -0.6087E-16  -0.2071E+00  -0.6485E-16   0.2071E+00
+   21886    17177      360  -0.3614E-16  -0.1474E+00  -0.3097E-16   0.1474E+00
+   23124     3220     1947   0.4551E-17   0.8204E-17  -0.1165E-03   0.1165E-03
+   23124     3221     1947  -0.9856E-18  -0.1777E-17   0.2524E-04   0.2524E-04
+   23124     3222     1947  -0.8880E-18  -0.1601E-17   0.2274E-04   0.2274E-04
+   23124     5272     1947   0.4586E-17   0.8268E-17  -0.1175E-03   0.1175E-03
+   23124     5265     1947   0.6706E-18   0.1209E-17  -0.1717E-04   0.1717E-04
+   23124     5271     1947   0.3990E-17   0.7193E-17  -0.1022E-03   0.1022E-03
+   23998     3241     2101   0.8604E-20   0.4205E-03   0.1448E-19   0.4205E-03
+   23998     3250     2101   0.1321E-19   0.5148E-03   0.2223E-19   0.5148E-03
+   23998     3242     2101  -0.2386E-19  -0.2452E-02  -0.4016E-19   0.2452E-02
+   23998     5162     2101  -0.1199E-19  -0.3231E-03  -0.2019E-19   0.3231E-03
+   23998     5157     2101  -0.7248E-19  -0.2444E-02  -0.1220E-18   0.2444E-02
+   23998     5165     2101  -0.2964E-19  -0.1827E-02  -0.4988E-19   0.1827E-02
+   24348     3483     2159   0.1959E-17  -0.3480E-02  -0.2717E-18   0.3480E-02
+   24348     3612     2159  -0.8624E-18   0.1460E-02   0.5997E-19   0.1460E-02
+   24348     3488     2159  -0.1809E-17   0.3120E-02   0.1782E-18   0.3120E-02
+   24348     4066     2159   0.2311E-17  -0.3923E-02  -0.1658E-18   0.3923E-02
+   24348     4046     2159   0.1459E-17  -0.2457E-02  -0.9231E-19   0.2457E-02
+   24348     4068     2159   0.1664E-16  -0.2822E-01  -0.1374E-17   0.2822E-01
+   24350     3483     2162   0.4834E-17   0.1936E-01   0.7069E-17   0.1936E-01
+   24350     3612     2162   0.2596E-17   0.1583E-01   0.5303E-17   0.1583E-01
+   24350     3488     2162  -0.7868E-16  -0.5801E-01  -0.4647E-16   0.5801E-01
+   24350     4066     2162   0.5265E-17  -0.1723E-01  -0.2567E-17   0.1723E-01
+   24350     4046     2162  -0.6445E-17  -0.6596E-01  -0.2060E-16   0.6596E-01
+   24350     4068     2162  -0.1298E-16  -0.1093E+00  -0.3398E-16   0.1093E+00
+   24351     3483     2159  -0.1674E-17   0.3917E-02   0.1039E-22   0.3917E-02
+   24351     3612     2159  -0.2316E-17   0.4960E-02   0.1438E-22   0.4960E-02
+   24351     3488     2159  -0.1135E-17   0.2278E-02   0.7046E-23   0.2278E-02
+   24351     4066     2159   0.5587E-17  -0.1205E-01  -0.3468E-22   0.1205E-01
+   24351     4046     2159   0.7141E-17  -0.1815E-01  -0.4433E-22   0.1815E-01
+   24351     4068     2159   0.1633E-16  -0.3104E-01  -0.1014E-21   0.3104E-01
+   24352     3488     2271  -0.2723E-16  -0.1408E-01  -0.1444E-16   0.1408E-01
+   24352     3612     2271   0.3275E-17   0.1996E-02   0.1816E-17   0.1996E-02
+   24352     3489     2271   0.3958E-17   0.2641E-02   0.2245E-17   0.2641E-02
+   24352     4046     2271  -0.1354E-16  -0.8013E-02  -0.7455E-17   0.8013E-02
+   24352     4038     2271  -0.1632E-17  -0.1267E-02  -0.9730E-18   0.1267E-02
+   24352     4049     2271  -0.1871E-16  -0.1394E-01  -0.1096E-16   0.1394E-01
+   24849     3206     2122  -0.1922E-17   0.2512E-02   0.5752E-17   0.2512E-02
+   24849     3192     2122   0.3004E-17  -0.7842E-02  -0.2611E-16   0.7842E-02
+   24849     3191     2122  -0.1298E-17   0.1597E-02   0.3451E-17   0.1597E-02
+   24849     5418     2122   0.1210E-16  -0.1367E-01  -0.2687E-16   0.1367E-01
+   24849     5427     2122   0.4230E-17  -0.5523E-02  -0.1264E-16   0.5523E-02
+   24849     5424     2122   0.1881E-17  -0.1810E-02  -0.2798E-17   0.1810E-02
+   25208     3488     2168   0.5228E-16  -0.1578E+00  -0.1064E-21   0.1578E+00
+   25208     3484     2168  -0.2916E-16   0.6254E-01   0.5257E-22   0.6254E-01
+   25208     3483     2168  -0.2453E-16   0.5181E-01   0.6073E-22   0.5181E-01
+   25208     4062     2168   0.1623E-15  -0.3363E+00  -0.2207E-21   0.3363E+00
+   25208     4071     2168   0.3117E-16  -0.5986E-01  -0.6769E-22   0.5986E-01
+   25208     4068     2168   0.1048E-15  -0.2198E+00  -0.3118E-21   0.2198E+00
+   25209     3488     2168  -0.7192E-17   0.3341E-01   0.5936E-17   0.3341E-01
+   25209     3484     2168   0.1263E-16  -0.1097E+00  -0.1588E-16   0.1097E+00
+   25209     3483     2168  -0.2850E-17   0.2953E-01   0.7765E-17   0.2953E-01
+   25209     4062     2168   0.5159E-16  -0.1797E+00  -0.2465E-16   0.1797E+00
+   25209     4071     2168   0.4337E-17  -0.1288E+00  -0.4032E-16   0.1288E+00
+   25209     4068     2168   0.4729E-17  -0.2773E-01  -0.7241E-17   0.2773E-01
+   25210     3488     2168  -0.4268E-17   0.1902E-01   0.7216E-17   0.1902E-01
+   25210     3484     2168  -0.9244E-18   0.1622E-01   0.8426E-17   0.1622E-01
+   25210     3483     2168   0.4504E-17  -0.2913E-01  -0.1308E-16   0.2913E-01
+   25210     4062     2168   0.2772E-17  -0.1994E-01  -0.8892E-17   0.1994E-01
+   25210     4071     2168  -0.8115E-17  -0.7543E-01  -0.4951E-16   0.7543E-01
+   25210     4068     2168   0.3801E-16  -0.1115E+00  -0.3110E-16   0.1115E+00
+   25211     3488     2168  -0.9371E-17   0.3946E-01   0.1320E-16   0.3946E-01
+   25211     3484     2168  -0.1324E-16   0.3906E-01   0.9729E-17   0.3906E-01
+   25211     3483     2168  -0.1668E-16   0.4568E-01   0.1025E-16   0.4568E-01
+   25211     4062     2168   0.9355E-16  -0.2377E+00  -0.4733E-16   0.2377E+00
+   25211     4071     2168   0.3590E-16  -0.1918E+00  -0.7247E-16   0.1918E+00
+   25211     4068     2168   0.6400E-16  -0.1835E+00  -0.4430E-16   0.1835E+00
+   25240     3502     2165   0.4559E-18  -0.1471E-01  -0.4719E-17   0.1471E-01
+   25240     3494     2165  -0.9355E-19   0.3698E-02   0.7684E-18   0.3698E-02
+   25240     3493     2165  -0.1113E-18   0.2828E-02   0.7555E-18   0.2828E-02
+   25240     4010     2165   0.4364E-18  -0.2052E-01  -0.3617E-17   0.2052E-01
+   25240     4019     2165   0.6641E-19  -0.2216E-02  -0.4162E-18   0.2216E-02
+   25240     4016     2165   0.4802E-18  -0.1088E-01  -0.3144E-17   0.1088E-01
+   25241     3502     2165   0.3200E-17   0.1969E-01  -0.2113E-16   0.1969E-01
+   25241     3494     2165  -0.1551E-16  -0.5338E-01   0.9839E-16   0.5338E-01
+   25241     3493     2165   0.3039E-17   0.1630E-01  -0.2022E-16   0.1630E-01
+   25241     4010     2165  -0.1496E-16  -0.1081E+00   0.9869E-16   0.1081E+00
+   25241     4019     2165  -0.1337E-16  -0.6568E-01   0.8990E-16   0.6568E-01
+   25241     4016     2165  -0.2160E-17  -0.1812E-01   0.1503E-16   0.1812E-01
+   25243     3502     2165   0.0000E+00   0.5104E-03   0.0000E+00   0.5104E-03
+   25243     3494     2165   0.0000E+00   0.6026E-03   0.0000E+00   0.6026E-03
+   25243     3493     2165   0.0000E+00   0.8310E-03   0.0000E+00   0.8310E-03
+   25243     4010     2165   0.0000E+00  -0.4831E-02   0.0000E+00   0.4831E-02
+   25243     4019     2165   0.0000E+00  -0.2301E-02   0.0000E+00   0.2301E-02
+   25243     4016     2165   0.0000E+00  -0.2754E-02   0.0000E+00   0.2754E-02
+   25446    12455     3291  -0.6240E-19  -0.1592E-02  -0.2934E-19   0.1592E-02
+   25446    12081     3291  -0.9217E-19  -0.1526E-02  -0.4334E-19   0.1526E-02
+   25446    11807     3291   0.1086E-18   0.8922E-02   0.5107E-19   0.8922E-02
+   25446    15684     3291   0.9670E-19   0.1019E-02   0.4547E-19   0.1019E-02
+   25446    17198     3291   0.6303E-18   0.6976E-02   0.2964E-18   0.6976E-02
+   25446    17197     3291   0.2119E-18   0.7162E-02   0.9965E-19   0.7162E-02
+   25488    12088     3460   0.0000E+00   0.1253E-01   0.4701E-19   0.1253E-01
+   25488    12448     3460   0.0000E+00  -0.2833E-02  -0.2695E-19   0.2833E-02
+   25488    12447     3460   0.0000E+00  -0.2526E-02  -0.2035E-19   0.2526E-02
+   25488    15654     3460   0.0000E+00   0.1345E-01   0.1625E-18   0.1345E-01
+   25488    13708     3460   0.0000E+00   0.1991E-02   0.2695E-19   0.1991E-02
+   25488    15655     3460   0.0000E+00   0.1128E-01   0.8113E-19   0.1128E-01
+   25716    12400     3139   0.6031E-16   0.6234E-01   0.4621E-16   0.6234E-01
+   25716    11799     3139  -0.1165E-16  -0.2629E-01  -0.2736E-16   0.2629E-01
+   25716    11968     3139  -0.7121E-17  -0.1996E-01  -0.1833E-16   0.1996E-01
+   25716    17241     3139   0.5785E-16   0.1505E+00   0.1734E-15   0.1505E+00
+   25716    17242     3139   0.4891E-17   0.2404E-01   0.2573E-16   0.2404E-01
+   25716    16358     3139   0.2506E-16   0.8298E-01   0.6501E-16   0.8298E-01
+   25717    12400     3139   0.1747E-16  -0.3774E-01  -0.1891E-17   0.3774E-01
+   25717    11799     3139  -0.3032E-16   0.1119E+00   0.5041E-17   0.1119E+00
+   25717    11968     3139   0.2296E-16  -0.3783E-01   0.1127E-16   0.3783E-01
+   25717    17241     3139  -0.6930E-16   0.1856E+00   0.5701E-16   0.1856E+00
+   25717    17242     3139  -0.1444E-15   0.1959E+00  -0.1118E-15   0.1959E+00
+   25717    16358     3139  -0.2526E-16   0.3858E-01  -0.8617E-17   0.3858E-01
+   25718    12400     3139   0.1771E-16  -0.2132E-01   0.1695E-16   0.2132E-01
+   25718    11799     3139   0.2109E-16  -0.2291E-01   0.2268E-16   0.2291E-01
+   25718    11968     3139  -0.4067E-16   0.5712E-01  -0.4327E-16   0.5712E-01
+   25718    17241     3139  -0.2170E-16   0.2319E-01  -0.2189E-16   0.2319E-01
+   25718    17242     3139  -0.1103E-15   0.1137E+00  -0.1241E-15   0.1137E+00
+   25718    16358     3139  -0.7951E-16   0.1026E+00  -0.6694E-16   0.1026E+00
+   25719    12400     3139   0.2807E-16  -0.4130E-01   0.1158E-17   0.4130E-01
+   25719    11799     3139   0.2162E-16  -0.3644E-01  -0.6750E-17   0.3644E-01
+   25719    11968     3139   0.2467E-16  -0.4413E-01  -0.1306E-16   0.4413E-01
+   25719    17241     3139  -0.1125E-15   0.2247E+00   0.1023E-15   0.2247E+00
+   25719    17242     3139  -0.1575E-15   0.2132E+00  -0.3909E-16   0.2132E+00
+   25719    16358     3139  -0.1029E-15   0.1720E+00   0.2846E-16   0.1720E+00
+   25742    12405     3448   0.0000E+00  -0.1726E-01  -0.1844E-17   0.1726E-01
+   25742    11962     3448   0.0000E+00  -0.1967E-01  -0.2501E-17   0.1967E-01
+   25742    12406     3448   0.0000E+00   0.7373E-01   0.4799E-17   0.7373E-01
+   25742    16388     3448   0.0000E+00   0.1547E-01   0.2290E-17   0.1547E-01
+   25742    16387     3448   0.0000E+00   0.1023E+00   0.1465E-16   0.1023E+00
+   25742    13841     3448   0.0000E+00   0.7574E-01   0.7381E-17   0.7574E-01
+   25752    11968     3139  -0.6036E-17   0.8618E-01  -0.3569E-16   0.8618E-01
+   25752    11799     3139   0.5281E-17  -0.2815E-01   0.1663E-16   0.2815E-01
+   25752    11798     3139  -0.1016E-17  -0.3257E-01   0.1295E-16   0.3257E-01
+   25752    17242     3139  -0.4338E-16   0.1249E+00  -0.9155E-16   0.1249E+00
+   25752    17249     3139  -0.2237E-17   0.3078E-01  -0.1585E-16   0.3078E-01
+   25752    17246     3139   0.2593E-16   0.1731E+00  -0.5227E-16   0.1731E+00
+   25753    11968     3139   0.1752E-16  -0.2615E-01   0.2217E-16   0.2615E-01
+   25753    11799     3139  -0.2343E-16   0.7379E-01  -0.2966E-16   0.7379E-01
+   25753    11798     3139   0.1268E-16  -0.2491E-01   0.1605E-16   0.2491E-01
+   25753    17242     3139  -0.1140E-15   0.1409E+00  -0.1443E-15   0.1409E+00
+   25753    17249     3139  -0.4714E-16   0.1188E+00  -0.5966E-16   0.1188E+00
+   25753    17246     3139  -0.1869E-16   0.2629E-01  -0.2366E-16   0.2629E-01
+   25754    11968     3139  -0.6953E-17  -0.2469E-01  -0.4176E-18   0.2469E-01
+   25754    11799     3139  -0.5301E-17  -0.2405E-01  -0.3184E-18   0.2405E-01
+   25754    11798     3139   0.1282E-16   0.7803E-01   0.7701E-18   0.7803E-01
+   25754    17242     3139   0.6934E-17   0.2392E-01   0.4165E-18   0.2392E-01
+   25754    17249     3139   0.2038E-16   0.1060E+00   0.1224E-17   0.1060E+00
+   25754    17246     3139   0.3976E-16   0.1209E+00   0.2388E-17   0.1209E+00
+   25755    11968     3139   0.1177E-16  -0.3049E-01   0.2004E-16   0.3049E-01
+   25755    11799     3139   0.6656E-17  -0.2708E-01   0.1569E-16   0.2708E-01
+   25755    11798     3139   0.1587E-16  -0.3142E-01   0.2533E-16   0.3142E-01
+   25755    17242     3139  -0.1005E-15   0.1657E+00  -0.1511E-15   0.1657E+00
+   25755    17249     3139  -0.5155E-16   0.1445E+00  -0.8890E-16   0.1445E+00
+   25755    17246     3139  -0.2434E-16   0.1356E+00  -0.7241E-16   0.1356E+00
+   25932     3108     3098  -0.2747E+00   0.4233E-18  -0.4242E-17   0.2747E+00
+   25932     3122     3098   0.9948E-01  -0.9794E-18   0.1699E-17   0.9948E-01
+   25932     3109     3098   0.1011E+00  -0.6202E-18   0.1339E-17   0.1011E+00
+   25932     5878     3098  -0.4947E+00   0.6516E-17  -0.9853E-17   0.4947E+00
+   25932     5872     3098  -0.1037E+00   0.1067E-17  -0.1558E-17   0.1037E+00
+   25932     5880     3098  -0.5161E+00   0.2089E-17  -0.5420E-17   0.5161E+00
+   25933     3108     3098   0.1806E+00  -0.4323E-17   0.4608E-17   0.1806E+00
+   25933     3122     3098  -0.5384E+00   0.8707E-17  -0.9362E-17   0.5384E+00
+   25933     3109     3098   0.1828E+00  -0.4410E-17   0.4783E-17   0.1828E+00
+   25933     5878     3098  -0.8930E+00   0.2195E-16  -0.2310E-16   0.8930E+00
+   25933     5872     3098  -0.9243E+00   0.2307E-16  -0.2532E-16   0.9243E+00
+   25933     5880     3098  -0.1825E+00   0.4969E-17  -0.5344E-17   0.1825E+00
+   25934     3108     3098   0.2421E+00  -0.2463E-17   0.2813E-17   0.2421E+00
+   25934     3122     3098   0.2435E+00  -0.3303E-17   0.3764E-17   0.2435E+00
+   25934     3109     3098  -0.7413E+00   0.6047E-17  -0.6851E-17   0.7413E+00
+   25934     5878     3098  -0.2411E+00   0.3236E-17  -0.3696E-17   0.2411E+00
+   25934     5872     3098  -0.1220E+01   0.1995E-16  -0.2272E-16   0.1220E+01
+   25934     5880     3098  -0.1203E+01   0.9547E-17  -0.1094E-16   0.1203E+01
+   25935     3108     3098   0.1812E+00  -0.4219E-17   0.4584E-17   0.1812E+00
+   25935     3122     3098   0.1801E+00  -0.3556E-17   0.3833E-17   0.1801E+00
+   25935     3109     3098   0.1790E+00  -0.4135E-17   0.4414E-17   0.1790E+00
+   25935     5878     3098  -0.8888E+00   0.2120E-16  -0.2250E-16   0.8888E+00
+   25935     5872     3098  -0.9097E+00   0.2193E-16  -0.2395E-16   0.9097E+00
+   25935     5880     3098  -0.9003E+00   0.1637E-16  -0.1766E-16   0.9003E+00
+   25936     3109     3097  -0.9447E+00   0.2071E-16  -0.5420E-17   0.9447E+00
+   25936     3122     3097   0.3117E+00  -0.5684E-17   0.3318E-17   0.3117E+00
+   25936     3123     3097   0.3137E+00  -0.4652E-17   0.2102E-17   0.3137E+00
+   25936     5872     3097  -0.1550E+01   0.3144E-16  -0.2155E-16   0.1550E+01
+   25936     5801     3097  -0.3118E+00   0.4454E-17  -0.3081E-17   0.3118E+00
+   25936     5871     3097  -0.1574E+01   0.1859E-16  -0.6406E-17   0.1574E+01
+   25937     3109     3097   0.2422E+00  -0.4469E-17   0.6825E-17   0.2422E+00
+   25937     3122     3097  -0.7140E+00   0.1400E-16  -0.2426E-16   0.7140E+00
+   25937     3123     3097   0.2419E+00  -0.3804E-17   0.6005E-17   0.2419E+00
+   25937     5872     3097  -0.1214E+01   0.2455E-16  -0.3635E-16   0.1214E+01
+   25937     5801     3097  -0.1210E+01   0.1631E-16  -0.2620E-16   0.1210E+01
+   25937     5871     3097  -0.2433E+00   0.3913E-17  -0.5720E-17   0.2433E+00
+   25938     3109     3097   0.3419E+00   0.1071E-17  -0.1073E-17   0.3419E+00
+   25938     3122     3097   0.3395E+00   0.8130E-18  -0.8142E-18   0.3395E+00
+   25938     3123     3097  -0.1031E+01  -0.1884E-17   0.1887E-17   0.1031E+01
+   25938     5872     3097  -0.3394E+00  -0.1071E-17   0.1073E-17   0.3394E+00
+   25938     5801     3097  -0.1687E+01  -0.3252E-17   0.3257E-17   0.1687E+01
+   25938     5871     3097  -0.1717E+01  -0.6465E-17   0.6475E-17   0.1717E+01
+   25939     3109     3097   0.3050E+00  -0.1730E-17   0.2300E-17   0.3050E+00
+   25939     3122     3097   0.3067E+00  -0.1507E-17   0.2079E-17   0.3067E+00
+   25939     3123     3097   0.3046E+00  -0.2508E-17   0.3259E-17   0.3046E+00
+   25939     5872     3097  -0.1520E+01   0.1471E-16  -0.1890E-16   0.1520E+01
+   25939     5801     3097  -0.1524E+01   0.8046E-17  -0.1070E-16   0.1524E+01
+   25939     5871     3097  -0.1538E+01   0.6030E-17  -0.8672E-17   0.1538E+01
+   25948     3136     3099   0.1065E+01  -0.1032E-13   0.2707E-14   0.1065E+01
+   25948     3150     3099  -0.3531E+00   0.2012E-14  -0.7829E-16   0.3531E+00
+   25948     3137     3099  -0.3514E+00   0.2052E-14   0.2352E-15   0.3514E+00
+   25948     5715     3099   0.1768E+01  -0.9245E-14   0.1092E-14   0.1768E+01
+   25948     5713     3099   0.3505E+00  -0.1453E-14  -0.4796E-15   0.3505E+00
+   25948     5717     3099   0.1751E+01  -0.9746E-14  -0.2808E-14   0.1751E+01
+   25949     3136     3099  -0.3878E+00   0.8328E-16  -0.4217E-15   0.3878E+00
+   25949     3150     3099   0.1170E+01  -0.4382E-15   0.1793E-14   0.1170E+01
+   25949     3137     3099  -0.3846E+00   0.8276E-16  -0.3906E-15   0.3846E+00
+   25949     5715     3099   0.1943E+01  -0.3860E-15   0.2125E-14   0.1943E+01
+   25949     5713     3099   0.1911E+01  -0.3832E-15   0.1750E-14   0.1911E+01
+   25949     5717     3099   0.3843E+00  -0.5683E-16   0.3263E-15   0.3843E+00
+   25950     3136     3099  -0.3493E+00   0.1670E-15   0.1189E-14   0.3493E+00
+   25950     3150     3099  -0.3491E+00   0.1268E-15   0.9034E-15   0.3491E+00
+   25950     3137     3099   0.1062E+01  -0.2949E-15  -0.2101E-14   0.1062E+01
+   25950     5715     3099   0.3473E+00  -0.1664E-15  -0.1185E-14   0.3473E+00
+   25950     5713     3099   0.1743E+01  -0.5096E-15  -0.3629E-14   0.1743E+01
+   25950     5717     3099   0.1745E+01  -0.1012E-14  -0.7209E-14   0.1745E+01
+   25951     3136     3099  -0.3455E+00   0.1240E-15   0.7987E-15   0.3455E+00
+   25951     3150     3099  -0.3446E+00   0.1636E-15   0.1081E-14   0.3446E+00
+   25951     3137     3099  -0.3475E+00   0.1246E-15   0.7765E-15   0.3475E+00
+   25951     5715     3099   0.1739E+01  -0.5764E-15  -0.3488E-14   0.1739E+01
+   25951     5713     3099   0.1727E+01  -0.5751E-15  -0.3705E-14   0.1727E+01
+   25951     5717     3099   0.1719E+01  -0.9068E-15  -0.6068E-14   0.1719E+01
+   25952     3137     3100   0.1122E+01  -0.2895E-14   0.5285E-15   0.1122E+01
+   25952     3150     3100  -0.3718E+00   0.6839E-15  -0.2280E-15   0.3718E+00
+   25952     3151     3100  -0.3733E+00   0.5152E-15  -0.3004E-15   0.3733E+00
+   25952     5713     3100   0.1853E+01  -0.3875E-14   0.9121E-15   0.1853E+01
+   25952     5671     3100   0.3720E+00  -0.4494E-15   0.3004E-15   0.3720E+00
+   25952     5712     3100   0.1872E+01  -0.1775E-14   0.1813E-14   0.1872E+01
+   25953     3137     3100  -0.3991E+00   0.4158E-15   0.4871E-21   0.3991E+00
+   25953     3150     3100   0.1223E+01  -0.7344E-15  -0.8603E-21   0.1223E+01
+   25953     3151     3100  -0.4022E+00   0.3152E-15   0.3693E-21   0.4022E+00
+   25953     5713     3100   0.1980E+01  -0.2507E-14  -0.2937E-20   0.1980E+01
+   25953     5671     3100   0.2018E+01  -0.1261E-14  -0.1477E-20   0.2018E+01
+   25953     5712     3100   0.3970E+00  -0.4142E-15  -0.4852E-21   0.3970E+00
+   25954     3137     3100  -0.4054E+00  -0.3104E-15  -0.3109E-15   0.4054E+00
+   25954     3150     3100  -0.4071E+00  -0.2356E-15  -0.2360E-15   0.4071E+00
+   25954     3151     3100   0.1231E+01   0.5460E-15   0.5469E-15   0.1231E+01
+   25954     5713     3100   0.4045E+00   0.3104E-15   0.3109E-15   0.4045E+00
+   25954     5671     3100   0.2040E+01   0.9424E-15   0.9439E-15   0.2040E+01
+   25954     5712     3100   0.2019E+01   0.1874E-14   0.1877E-14   0.2019E+01
+   25955     3137     3100  -0.3663E+00   0.7853E-16  -0.2194E-15   0.3663E+00
+   25955     3150     3100  -0.3654E+00   0.1050E-16  -0.2888E-15   0.3654E+00
+   25955     3151     3100  -0.3646E+00   0.1717E-15  -0.2203E-15   0.3646E+00
+   25955     5713     3100   0.1820E+01  -0.1169E-14   0.1018E-14   0.1820E+01
+   25955     5671     3100   0.1834E+01  -0.3652E-15   0.1020E-14   0.1834E+01
+   25955     5712     3100   0.1827E+01   0.2280E-15   0.1612E-14   0.1827E+01
+   25980     3193     3128   0.7476E+00  -0.5172E-14   0.1854E-14   0.7476E+00
+   25980     3192     3128  -0.2458E+00   0.7072E-15  -0.3486E-15   0.2458E+00
+   25980     3206     3128  -0.2453E+00   0.5578E-15  -0.3486E-15   0.2453E+00
+   25980     5420     3128   0.1229E+01  -0.3576E-14   0.1616E-14   0.1229E+01
+   25980     5418     3128   0.2440E+00  -0.1839E-15   0.2380E-15   0.2440E+00
+   25980     5416     3128   0.1223E+01  -0.1716E-14   0.1616E-14   0.1223E+01
+   25981     3193     3128  -0.2669E+00   0.4582E-16   0.4582E-16   0.2669E+00
+   25981     3192     3128   0.8073E+00  -0.1062E-15  -0.1062E-15   0.8073E+00
+   25981     3206     3128  -0.2691E+00   0.6037E-16   0.6037E-16   0.2691E+00
+   25981     5420     3128   0.1325E+01  -0.1833E-15  -0.1833E-15   0.1325E+01
+   25981     5418     3128   0.1353E+01  -0.3644E-15  -0.3644E-15   0.1353E+01
+   25981     5416     3128   0.2675E+00  -0.6037E-16  -0.6037E-16   0.2675E+00
+   25982     3193     3128  -0.3229E+00   0.3177E-15  -0.3685E-14   0.3229E+00
+   25982     3192     3128  -0.3256E+00   0.5209E-15  -0.3668E-14   0.3256E+00
+   25982     3206     3128   0.1003E+01  -0.4278E-14   0.1975E-13   0.1003E+01
+   25982     5420     3128   0.3201E+00  -0.5617E-17   0.2481E-14   0.3201E+00
+   25982     5418     3128   0.1634E+01  -0.2886E-14   0.1690E-13   0.1634E+01
+   25982     5416     3128   0.1599E+01  -0.3555E-15   0.1711E-13   0.1599E+01
+   25983     3193     3128  -0.2530E+00  -0.4302E-15   0.5751E-16   0.2530E+00
+   25983     3192     3128  -0.2513E+00  -0.5988E-15   0.4365E-16   0.2513E+00
+   25983     3206     3128  -0.2510E+00  -0.4440E-15   0.4365E-16   0.2510E+00
+   25983     5420     3128   0.1252E+01   0.2058E-14  -0.2023E-15   0.1252E+01
+   25983     5418     3128   0.1270E+01   0.1941E-14  -0.3194E-15   0.1270E+01
+   25983     5416     3128   0.1255E+01   0.3366E-14  -0.2023E-15   0.1255E+01
+   25984     3207     3127   0.9577E+00   0.0000E+00   0.1726E-13   0.9577E+00
+   25984     3193     3127  -0.3136E+00   0.0000E+00  -0.3245E-14   0.3136E+00
+   25984     3206     3127  -0.3157E+00   0.0000E+00  -0.3245E-14   0.3157E+00
+   25984     5415     3127   0.1558E+01   0.0000E+00   0.1504E-13   0.1558E+01
+   25984     5416     3127   0.3127E+00   0.0000E+00   0.2215E-14   0.3127E+00
+   25984     5365     3127   0.1584E+01   0.0000E+00   0.1504E-13   0.1584E+01
+   25985     3207     3127  -0.2529E+00   0.1198E-14   0.2665E-14   0.2529E+00
+   25985     3193     3127   0.7655E+00  -0.6371E-14  -0.1417E-13   0.7655E+00
+   25985     3206     3127  -0.2517E+00   0.1198E-14   0.2665E-14   0.2517E+00
+   25985     5415     3127   0.1268E+01  -0.5553E-14  -0.1235E-13   0.1268E+01
+   25985     5416     3127   0.1252E+01  -0.5553E-14  -0.1235E-13   0.1252E+01
+   25985     5365     3127   0.2511E+00  -0.8179E-15  -0.1819E-14   0.2511E+00
+   25986     3207     3127  -0.3316E+00   0.0000E+00   0.0000E+00   0.3316E+00
+   25986     3193     3127  -0.3283E+00   0.0000E+00   0.0000E+00   0.3283E+00
+   25986     3206     3127   0.1017E+01   0.0000E+00   0.0000E+00   0.1017E+01
+   25986     5415     3127   0.3262E+00   0.0000E+00   0.0000E+00   0.3262E+00
+   25986     5416     3127   0.1625E+01   0.0000E+00   0.0000E+00   0.1625E+01
+   25986     5365     3127   0.1666E+01   0.0000E+00   0.0000E+00   0.1666E+01
+   25987     3207     3127  -0.2665E+00   0.0000E+00   0.0000E+00   0.2665E+00
+   25987     3193     3127  -0.2690E+00   0.0000E+00   0.0000E+00   0.2690E+00
+   25987     3206     3127  -0.2670E+00   0.0000E+00   0.0000E+00   0.2670E+00
+   25987     5415     3127   0.1333E+01   0.0000E+00   0.0000E+00   0.1333E+01
+   25987     5416     3127   0.1329E+01   0.0000E+00   0.0000E+00   0.1329E+01
+   25987     5365     3127   0.1350E+01   0.0000E+00   0.0000E+00   0.1350E+01
+   25996     3178     3130  -0.1356E+00  -0.7692E-15   0.6400E-15   0.1356E+00
+   25996     3165     3130   0.4731E-01   0.4373E-15  -0.3638E-15   0.4731E-01
+   25996     3164     3130   0.4414E-01   0.3319E-15  -0.2762E-15   0.4414E-01
+   25996     5567     3130  -0.2486E+00  -0.2639E-14   0.2196E-14   0.2486E+00
+   25996     5575     3130  -0.4594E-01  -0.4373E-15   0.3638E-15   0.4594E-01
+   25996     5573     3130  -0.2091E+00  -0.1328E-14   0.1105E-14   0.2091E+00
+   25997     3178     3130   0.9068E-01   0.3846E-15  -0.6584E-15   0.9068E-01
+   25997     3165     3130  -0.2799E+00   0.5274E-15   0.1698E-15   0.2799E+00
+   25997     3164     3130   0.8848E-01   0.2442E-15  -0.6676E-15   0.8848E-01
+   25997     5567     3130  -0.4598E+00  -0.2678E-14   0.3545E-14   0.4598E+00
+   25997     5575     3130  -0.4324E+00  -0.9295E-15   0.3659E-14   0.4324E+00
+   25997     5573     3130  -0.8805E-01  -0.5158E-15   0.9121E-15   0.8805E-01
+   25999     3178     3130   0.3795E-01   0.3460E-15  -0.5280E-15   0.3795E-01
+   25999     3165     3130   0.3696E-01   0.3365E-15  -0.4623E-15   0.3696E-01
+   25999     3164     3130   0.4030E-01   0.4339E-15  -0.5433E-15   0.4030E-01
+   25999     5567     3130  -0.2080E+00  -0.2383E-14   0.2827E-14   0.2080E+00
+   25999     5575     3130  -0.1882E+00  -0.1640E-14   0.2698E-14   0.1882E+00
+   25999     5573     3130  -0.1798E+00  -0.1560E-14   0.2143E-14   0.1798E+00
+   26000     3179     3129  -0.5130E+00  -0.6084E-15  -0.5476E-14   0.5130E+00
+   26000     3165     3129   0.1687E+00   0.2625E-15   0.1356E-14   0.1687E+00
+   26000     3178     3129   0.1677E+00   0.3459E-15   0.1539E-14   0.1677E+00
+   26000     5566     3129  -0.8457E+00  -0.1050E-14  -0.5916E-14   0.8457E+00
+   26000     5567     3129  -0.1670E+00  -0.3459E-15  -0.1292E-14   0.1670E+00
+   26000     5494     3129  -0.8334E+00  -0.2088E-14  -0.8199E-14   0.8334E+00
+   26001     3179     3129   0.1370E+00  -0.6845E-15   0.5120E-15   0.1370E+00
+   26001     3165     3129  -0.4065E+00   0.1586E-14  -0.1187E-14   0.4065E+00
+   26001     3178     3129   0.1356E+00  -0.9018E-15   0.6746E-15   0.1356E+00
+   26001     5566     3129  -0.6904E+00   0.2738E-14  -0.2048E-14   0.6904E+00
+   26001     5567     3129  -0.6729E+00   0.5443E-14  -0.4072E-14   0.6729E+00
+   26001     5494     3129  -0.1366E+00   0.9018E-15  -0.6745E-15   0.1366E+00
+   26002     3179     3129   0.9223E-01  -0.1506E-15   0.7205E-15   0.9223E-01
+   26002     3165     3129   0.9180E-01  -0.3637E-15   0.7251E-15   0.9180E-01
+   26002     3178     3129  -0.2617E+00   0.5831E-16  -0.9897E-15   0.2617E+00
+   26002     5566     3129  -0.9398E-01   0.3548E-15  -0.8842E-15   0.9398E-01
+   26002     5567     3129  -0.4597E+00   0.2725E-14  -0.3828E-14   0.4597E+00
+   26002     5494     3129  -0.4650E+00   0.7128E-16  -0.3771E-14   0.4650E+00
+   26003     3179     3129   0.1369E+00  -0.6796E-15   0.1168E-14   0.1369E+00
+   26003     3165     3129   0.1374E+00  -0.3910E-15   0.1161E-14   0.1374E+00
+   26003     3178     3129   0.1385E+00  -0.4620E-15   0.1005E-14   0.1385E+00
+   26003     5566     3129  -0.6956E+00   0.2141E-14  -0.4659E-14   0.6956E+00
+   26003     5567     3129  -0.6820E+00   0.3981E-14  -0.6034E-14   0.6820E+00
+   26003     5494     3129  -0.6866E+00   0.1541E-14  -0.5979E-14   0.6866E+00
+   26012     3080     3132   0.1442E+01   0.2925E-14   0.2925E-14   0.1442E+01
+   26012     3094     3132  -0.4811E+00  -0.1264E-14  -0.1264E-14   0.4811E+00
+   26012     3081     3132  -0.4804E+00  -0.1661E-14  -0.1661E-14   0.4804E+00
+   26012     6029     3132   0.2409E+01   0.5069E-14   0.5069E-14   0.2409E+01
+   26012     6027     3132   0.4808E+00   0.1663E-14   0.1663E-14   0.4808E+00
+   26012     6031     3132   0.2399E+01   0.1002E-13   0.1002E-13   0.2399E+01
+   26013     3080     3132  -0.5212E+00   0.5815E-15  -0.7032E-17   0.5212E+00
+   26013     3094     3132   0.1581E+01  -0.2476E-14   0.1237E-16   0.1581E+01
+   26013     3081     3132  -0.5200E+00   0.6510E-15  -0.5338E-17   0.5200E+00
+   26013     6029     3132   0.2607E+01  -0.2550E-14   0.4245E-16   0.2607E+01
+   26013     6027     3132   0.2592E+01  -0.3415E-14   0.2135E-16   0.2592E+01
+   26013     6031     3132   0.5179E+00  -0.5303E-15   0.7032E-17   0.5179E+00
+   26014     3080     3132  -0.5129E+00  -0.1546E-14  -0.1758E-14   0.5129E+00
+   26014     3094     3132  -0.5124E+00  -0.1055E-14  -0.1334E-14   0.5124E+00
+   26014     3081     3132   0.1558E+01   0.2602E-14   0.3092E-14   0.1558E+01
+   26014     6029     3132   0.5099E+00   0.1479E-14   0.1758E-14   0.5099E+00
+   26014     6027     3132   0.2557E+01   0.3654E-14   0.5337E-14   0.2557E+01
+   26014     6031     3132   0.2563E+01   0.9764E-14   0.1061E-13   0.2563E+01
+   26015     3080     3132  -0.4809E+00  -0.9992E-15  -0.1266E-14   0.4809E+00
+   26015     3094     3132  -0.4807E+00  -0.1464E-14  -0.1667E-14   0.4807E+00
+   26015     3081     3132  -0.4812E+00  -0.1065E-14  -0.1268E-14   0.4812E+00
+   26015     6029     3132   0.2407E+01   0.4943E-14   0.5882E-14   0.2407E+01
+   26015     6027     3132   0.2404E+01   0.4385E-14   0.5869E-14   0.2404E+01
+   26015     6031     3132   0.2403E+01   0.8313E-14   0.9252E-14   0.2403E+01
+   26016     3094     3131   0.1614E+01  -0.5407E-14  -0.6403E-14   0.1614E+01
+   26016     3095     3131  -0.5345E+00   0.1252E-14   0.1682E-14   0.5345E+00
+   26016     3081     3131  -0.5322E+00   0.1167E-14   0.1734E-14   0.5322E+00
+   26016     5976     3131   0.2679E+01  -0.6294E-14  -0.8014E-14   0.2679E+01
+   26016     6026     3131   0.5315E+00  -0.9659E-15  -0.1532E-14   0.5315E+00
+   26016     6027     3131   0.2650E+01  -0.5241E-14  -0.8659E-14   0.2650E+01
+   26017     3094     3131  -0.5742E+00   0.3686E-15   0.1822E-14   0.5742E+00
+   26017     3095     3131   0.1737E+01  -0.6484E-15  -0.8379E-14   0.1737E+01
+   26017     3081     3131  -0.5746E+00   0.2798E-15   0.1734E-14   0.5746E+00
+   26017     5976     3131   0.2867E+01  -0.2225E-14  -0.8963E-14   0.2867E+01
+   26017     6026     3131   0.2872E+01  -0.1119E-14  -0.7857E-14   0.2872E+01
+   26017     6027     3131   0.5725E+00  -0.3686E-15  -0.1361E-14   0.5725E+00
+   26018     3094     3131  -0.5371E+00   0.0000E+00   0.5698E-15   0.5371E+00
+   26018     3095     3131  -0.5397E+00   0.0000E+00   0.4325E-15   0.5397E+00
+   26018     3081     3131   0.1629E+01   0.0000E+00  -0.1002E-14   0.1629E+01
+   26018     5976     3131   0.5366E+00   0.0000E+00  -0.5698E-15   0.5366E+00
+   26018     6026     3131   0.2707E+01   0.0000E+00  -0.1730E-14   0.2707E+01
+   26018     6027     3131   0.2673E+01   0.0000E+00  -0.3439E-14   0.2673E+01
+   26019     3094     3131  -0.5239E+00   0.2609E-15   0.6867E-15   0.5239E+00
+   26019     3095     3131  -0.5219E+00   0.2609E-15   0.8218E-15   0.5219E+00
+   26019     3081     3131  -0.5236E+00   0.3438E-15   0.7695E-15   0.5236E+00
+   26019     5976     3131   0.2620E+01  -0.1909E-14  -0.3883E-14   0.2620E+01
+   26019     6026     3131   0.2622E+01  -0.1209E-14  -0.3183E-14   0.2622E+01
+   26019     6027     3131   0.2606E+01  -0.1209E-14  -0.4325E-14   0.2606E+01
+   26028     3066     3134  -0.1485E+01   0.3090E-14   0.5319E-14   0.1485E+01
+   26028     3067     3134   0.4920E+00   0.1869E-14  -0.2060E-14   0.4920E+00
+   26028     3065     3134   0.4888E+00   0.1097E-14  -0.5059E-15   0.4888E+00
+   26028     6112     3134  -0.2470E+01  -0.1341E-13   0.1586E-13   0.2470E+01
+   26028     6114     3134  -0.4886E+00  -0.2516E-14   0.1082E-14   0.4886E+00
+   26028     6115     3134  -0.2430E+01  -0.3798E-14  -0.3493E-14   0.2430E+01
+   26029     3066     3134   0.4794E+00   0.3409E-14  -0.2961E-14   0.4794E+00
+   26029     3067     3134  -0.1441E+01  -0.5997E-14   0.4958E-14   0.1441E+01
+   26029     3065     3134   0.4763E+00   0.2588E-14  -0.1997E-14   0.4763E+00
+   26029     6112     3134  -0.2407E+01  -0.2058E-13   0.1878E-13   0.2407E+01
+   26029     6114     3134  -0.2368E+01  -0.1035E-13   0.6787E-14   0.2368E+01
+   26029     6115     3134  -0.4768E+00  -0.3409E-14   0.2819E-14   0.4768E+00
+   26030     3066     3134   0.3499E+00   0.2150E-15   0.2640E-14   0.3499E+00
+   26030     3067     3134   0.3500E+00   0.1632E-15   0.2201E-14   0.3500E+00
+   26030     3065     3134  -0.1024E+01  -0.3782E-15  -0.4841E-14   0.1024E+01
+   26030     6112     3134  -0.3534E+00  -0.2150E-15  -0.2752E-14   0.3534E+00
+   26030     6114     3134  -0.1754E+01  -0.6527E-15  -0.9754E-14   0.1754E+01
+   26030     6115     3134  -0.1753E+01  -0.1298E-14  -0.1522E-13   0.1753E+01
+   26031     3066     3134   0.4413E+00   0.2645E-14   0.1835E-15   0.4413E+00
+   26031     3067     3134   0.4413E+00   0.2707E-14   0.7094E-15   0.4413E+00
+   26031     3065     3134   0.4445E+00   0.3423E-14  -0.7278E-15   0.4445E+00
+   26031     6112     3134  -0.2230E+01  -0.1883E-13   0.6341E-14   0.2230E+01
+   26031     6114     3134  -0.2202E+01  -0.1226E-13  -0.1361E-14   0.2202E+01
+   26031     6115     3134  -0.2203E+01  -0.1278E-13  -0.5806E-14   0.2203E+01
+   26032     3065     3133  -0.8758E+00  -0.3074E-14   0.2333E-14   0.8758E+00
+   26032     3067     3133   0.2975E+00   0.5781E-15  -0.4387E-15   0.2975E+00
+   26032     3064     3133   0.2932E+00   0.5781E-15  -0.4387E-15   0.2932E+00
+   26032     6114     3133  -0.1505E+01  -0.2679E-14   0.2033E-14   0.1505E+01
+   26032     6122     3133  -0.2968E+00  -0.3946E-15   0.2994E-15   0.2968E+00
+   26032     6123     3133  -0.1452E+01  -0.2679E-14   0.2033E-14   0.1452E+01
+   26033     3065     3133   0.4233E+00   0.0000E+00   0.0000E+00   0.4233E+00
+   26033     3067     3133  -0.1291E+01   0.0000E+00   0.0000E+00   0.1291E+01
+   26033     3064     3133   0.4223E+00   0.0000E+00   0.0000E+00   0.4223E+00
+   26033     6114     3133  -0.2117E+01   0.0000E+00   0.0000E+00   0.2117E+01
+   26033     6122     3133  -0.2104E+01   0.0000E+00   0.0000E+00   0.2104E+01
+   26033     6123     3133  -0.4197E+00   0.0000E+00   0.0000E+00   0.4197E+00
+   26034     3065     3133   0.2281E+00  -0.2097E-14  -0.4905E-15   0.2281E+00
+   26034     3067     3133   0.2314E+00  -0.2097E-14  -0.4905E-15   0.2314E+00
+   26034     3064     3133  -0.6585E+00   0.1115E-13   0.2608E-14   0.6585E+00
+   26034     6114     3133  -0.2340E+00   0.1432E-14   0.3348E-15   0.2340E+00
+   26034     6122     3133  -0.1174E+01   0.9720E-14   0.2273E-14   0.1174E+01
+   26034     6123     3133  -0.1134E+01   0.9720E-14   0.2273E-14   0.1134E+01
+   26035     3065     3133   0.3278E+00   0.0000E+00   0.0000E+00   0.3278E+00
+   26035     3067     3133   0.3247E+00   0.0000E+00   0.0000E+00   0.3247E+00
+   26035     3064     3133   0.3291E+00   0.0000E+00   0.0000E+00   0.3291E+00
+   26035     6114     3133  -0.1652E+01   0.0000E+00   0.0000E+00   0.1652E+01
+   26035     6122     3133  -0.1641E+01   0.0000E+00   0.0000E+00   0.1641E+01
+   26035     6123     3133  -0.1615E+01   0.0000E+00   0.0000E+00   0.1615E+01
+   26052     3495     2157   0.1994E+01   0.1628E-13  -0.3255E-13   0.1994E+01
+   26052     3502     2157  -0.6590E+00  -0.7023E-14   0.5260E-14   0.6590E+00
+   26052     3503     2157  -0.6613E+00  -0.9252E-14   0.3743E-14   0.6613E+00
+   26052     4008     2157   0.3284E+01   0.2809E-13  -0.2895E-13   0.3284E+01
+   26052     3984     2157   0.6583E+00   0.9252E-14  -0.1892E-14   0.6583E+00
+   26052     4007     2157   0.3313E+01   0.5585E-13  -0.1006E-13   0.3313E+01
+   26053     3495     2157  -0.6505E+00  -0.7729E-15   0.8838E-15   0.6505E+00
+   26053     3502     2157   0.1967E+01   0.1791E-14  -0.1123E-14   0.1967E+01
+   26053     3503     2157  -0.6523E+00  -0.1018E-14   0.2393E-15   0.6523E+00
+   26053     4008     2157   0.3243E+01   0.3092E-14  -0.6909E-14   0.3243E+01
+   26053     3984     2157   0.3267E+01   0.6146E-14   0.1116E-14   0.3267E+01
+   26053     4007     2157   0.6497E+00   0.1018E-14  -0.6385E-15   0.6497E+00
+   26054     3495     2157  -0.6799E+00  -0.7760E-14  -0.5498E-14   0.6799E+00
+   26054     3502     2157  -0.6794E+00  -0.5745E-14  -0.4616E-14   0.6794E+00
+   26054     3503     2157   0.2049E+01   0.5404E-14   0.1011E-13   0.2049E+01
+   26054     4008     2157   0.6783E+00   0.8787E-14   0.5750E-14   0.6783E+00
+   26054     3984     2157   0.3394E+01   0.2356E-13   0.2059E-13   0.3394E+01
+   26054     4007     2157   0.3399E+01   0.4865E-13   0.3157E-13   0.3399E+01
+   26055     3495     2157  -0.6417E+00  -0.7831E-14  -0.3168E-14   0.6417E+00
+   26055     3502     2157  -0.6420E+00  -0.9758E-14  -0.4011E-14   0.6420E+00
+   26055     3503     2157  -0.6405E+00  -0.7590E-14  -0.2530E-14   0.6405E+00
+   26055     4008     2157   0.3199E+01   0.3518E-13   0.1022E-13   0.3199E+01
+   26055     3984     2157   0.3210E+01   0.3722E-13   0.1560E-13   0.3210E+01
+   26055     4007     2157   0.3212E+01   0.5350E-13   0.2273E-13   0.3212E+01
+   26056     3502     2158   0.1934E+01  -0.1837E-13  -0.1837E-13   0.1934E+01
+   26056     3495     2158  -0.6387E+00   0.3455E-14   0.3455E-14   0.6387E+00
+   26056     3494     2158  -0.6397E+00   0.3455E-14   0.3455E-14   0.6397E+00
+   26056     4008     2158   0.3187E+01  -0.1601E-13  -0.1601E-13   0.3187E+01
+   26056     4012     2158   0.6369E+00  -0.2359E-14  -0.2359E-14   0.6369E+00
+   26056     4010     2158   0.3200E+01  -0.1601E-13  -0.1601E-13   0.3200E+01
+   26057     3502     2158  -0.6372E+00   0.0000E+00   0.6915E-14   0.6372E+00
+   26057     3495     2158   0.1931E+01   0.0000E+00  -0.3677E-13   0.1931E+01
+   26057     3494     2158  -0.6378E+00   0.0000E+00   0.6915E-14   0.6378E+00
+   26057     4008     2158   0.3181E+01   0.0000E+00  -0.3205E-13   0.3181E+01
+   26057     4012     2158   0.3188E+01   0.0000E+00  -0.3205E-13   0.3188E+01
+   26057     4010     2158   0.6350E+00   0.0000E+00  -0.4720E-14   0.6350E+00
+   26058     3502     2158  -0.6101E+00   0.0000E+00   0.0000E+00   0.6101E+00
+   26058     3495     2158  -0.6096E+00   0.0000E+00   0.0000E+00   0.6096E+00
+   26058     3494     2158   0.1830E+01   0.0000E+00   0.0000E+00   0.1830E+01
+   26058     4008     2158   0.6098E+00   0.0000E+00   0.0000E+00   0.6098E+00
+   26058     4012     2158   0.3046E+01   0.0000E+00   0.0000E+00   0.3046E+01
+   26058     4010     2158   0.3052E+01   0.0000E+00   0.0000E+00   0.3052E+01
+   26059     3502     2158  -0.6069E+00   0.0000E+00   0.0000E+00   0.6069E+00
+   26059     3495     2158  -0.6072E+00   0.0000E+00   0.0000E+00   0.6072E+00
+   26059     3494     2158  -0.6069E+00   0.0000E+00   0.0000E+00   0.6069E+00
+   26059     4008     2158   0.3034E+01   0.0000E+00   0.0000E+00   0.3034E+01
+   26059     4012     2158   0.3034E+01   0.0000E+00   0.0000E+00   0.3034E+01
+   26059     4010     2158   0.3036E+01   0.0000E+00   0.0000E+00   0.3036E+01
+   TOTAL                     0.1240E+03  -0.7518E+01  -0.7646E-02   0.8503E+03
+
+   TOTAL NUMBER OF ACTIVE CONTACT ELEMENT(S) =   218
+
+     TIME FOR AL CONTACT OPERATIONS (Results) . . . . .=       0
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.136165E-02
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE       187          189         6165            1            1            1
+  MIN.  -9.73924E-06 -3.50979E-04 -4.21747E-07   0.0000       0.0000       0.0000    
+
+  NODE     11884         1030         6202        17415        17415        17415
+  MAX.   8.82252E-06  9.53573E-10  2.83641E-07   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE       189
+  MAX.   3.51114E-04
+
+
+
+
+********************************************************************************
+         R E A C T I O N   F O R C E   F O R   LOAD CASE NO.  1
+********************************************************************************
+
+    NODE CSYS    Fx         Fy         Fz         Mx         My         Mz
+
+ FOR REQUESTED                 (Global Cartesian Coord. System)
+    NODES         FX         FY         FZ         MX         MY         MZ
+ Total React. -.9537E-06 0.7840E+01 0.2682E-06 0.0000E+00 0.0000E+00 0.0000E+00
+  
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     11942
+  MAX.     0.98958E+07
+
+
+
+   E R R O R    E S T I M A T I O N
+   (for requested elements)
+
+   Total Strain Energy (TSE)        =  0.136165E-02
+   Total Error Energy (TEE)         =  0.148961E-04
+   Ave. Percentage Error (APE)      =  0.737571E+01
+     ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
+
+
+
+********************************************************************************
+   MFLOP Rate of Matrix Decomposition . . . . . . . (MF/Sec)=       0.0
+********************************************************************************
+
+
+                             S O L U T I O N    T I M E   L O G    I N    S E C O N D S
+  DEFINITIONS
+     INP_PHASE=TIME FOR INPUT PHASE
+     STF_PHASE=TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX
+     REN_PHASE=TIME FOR REORDERING EQUATIONS
+     SOL_PHASE=TIME FOR INTEL DIRECT SPARSE SOLUTION
+     CNT_PHASE=TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS
+     REC_PHASE=TIME FOR REACTION FORCE & DISP UPDATE TO POST
+     STS_PHASE=TIME FOR STRESS CALCULATION
+     LCS_PHASE=TIME FOR LOAD CASE SOLUTIONS
+     TOT_TIME =TOTAL SOLUTION TIME
+
+          INP_PHASE STF_PHASE REN_PHASE SOL_PHASE CNT_PHASE REC_PHASE STS_PHASE LCS_PHASE  TOT_TIME 
+                  3         1         7         3         6         0         0         0        33
+                                                      (   0: 0:33)
+
+
+

@@ -1,0 +1,16 @@
+[StartTime]
+Assemblage1-Statique 2.MFC=34s
+[SolverState]
+Assemblage1-Statique 2.MFC=1
+[MainFrame]
+Assemblage1-Statique 2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAADLBAAAAAEHEAAAAAPNDAAAAA
+[ShowMin]
+Assemblage1-Statique 2.MFC=No
+[SolverType]
+Assemblage1-Statique 2.MFC=Analyse linéaire
+[StudyType]
+Assemblage1-Statique 2.MFC=0
+[StudyName]
+Assemblage1-Statique 2.MFC=Statique 2
+[Solver]
+Assemblage1-Statique 2.MFC=Sparse

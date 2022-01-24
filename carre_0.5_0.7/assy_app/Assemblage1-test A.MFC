@@ -1,0 +1,16 @@
+[StartTime]
+Assemblage1-test A.MFC=1m:51s
+[SolverState]
+Assemblage1-test A.MFC=1
+[MainFrame]
+Assemblage1-test A.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAADLBAAAAAEHEAAAAAPNDAAAAA
+[ShowMin]
+Assemblage1-test A.MFC=No
+[SolverType]
+Assemblage1-test A.MFC=Analyse linéaire
+[StudyType]
+Assemblage1-test A.MFC=0
+[StudyName]
+Assemblage1-test A.MFC=test A
+[Solver]
+Assemblage1-test A.MFC=Iterative
